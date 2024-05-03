@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cryptography = "==42.0.5"
+boto3 = "*"
+aws-lambda-context = "*"
+
+[dev-packages]
+
+[requires]
+python_version = ">=3.10"
