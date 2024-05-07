@@ -37,3 +37,4 @@ __pycache__
 !*.d.ts
 /.gitattributes
 /.projenrc.ts
+/projenrc
