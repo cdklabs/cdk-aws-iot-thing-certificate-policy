@@ -23,7 +23,7 @@ npm install cdk-aws-iot-thing-certificate-policy
 
 **Example:**
 
-```ts nofixture
+```ts
 import * as cdk from "aws-cdk-lib";
 import { IotThingCertificatePolicy } from "cdk-aws-iot-thing-certificate-policy";
 /**
@@ -32,7 +32,7 @@ import { IotThingCertificatePolicy } from "cdk-aws-iot-thing-certificate-policy"
  * the thing to publish and subscribe on any topics under "thing/*" topic
  * namespace. Normal IoT Policy conventions such as "*", apply.
  */
-export const minimalIoTPolicy = `{
+const minimalIoTPolicy = `{
   "Version": "2012-10-17",
   "Statement": [
     {
