@@ -25,7 +25,7 @@ npm install cdk-aws-iot-thing-certificate-policy
 
 ```ts
 import * as cdk from "aws-cdk-lib";
-import { IotThingCertificatePolicy } from "cdk-aws-iot-thing-certificate-policy";
+import { IotThingCertificatePolicy } from "@cdklabs/cdk-aws-iot-thing-certificate-policy";
 /**
  * A minimum IoT Policy template using substitution variables for actual
  * policy to be deployed for "region", "account", and "thingname". Allows
@@ -118,7 +118,7 @@ pip install cdk-aws-iot-thing-certificate-policy
 
 ```python
 import aws_cdk as cdk
-from cdk_aws_iot_thing_certificate_policy import (
+from cdklabs.cdk_aws_iot_thing_certificate_policy import (
     IotThingCertificatePolicy,
 )
 

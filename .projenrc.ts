@@ -10,16 +10,16 @@ import { NpmAccess } from "projen/lib/javascript";
 const CDK_VERSION = "2.138.0";
 
 const project = new CdklabsConstructLibrary({
-  name: "cdk-aws-iot-thing-certificate-policy",
+  name: "@cdklabs/cdk-aws-iot-thing-certificate-policy",
   projenrcTs: true,
   repositoryUrl:
     "https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy",
   author: "AWS",
-  authorAddress: "aws-cdk-dev@amazon.com",
+  authorAddress: "specialist-iot-sa@amazon.com",
   keywords: ["aws iot", "iot", "thing", "iot policy", "certificate"],
   description:
     "Creates an AWS IoT thing, certificate, policy, and associates the three together",
-  packageName: "cdk-aws-iot-thing-certificate-policy",
+  packageName: "@cdklabs/cdk-aws-iot-thing-certificate-policy",
   deps: [],
   devDeps: [
     "cdklabs-projen-project-types",
