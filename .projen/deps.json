@@ -20,7 +20,23 @@
       "type": "build"
     },
     {
+      "name": "aws-cdk-lib",
+      "type": "build"
+    },
+    {
+      "name": "awslint",
+      "type": "build"
+    },
+    {
+      "name": "cdk-nag",
+      "type": "build"
+    },
+    {
       "name": "cdklabs-projen-project-types",
+      "type": "build"
+    },
+    {
+      "name": "eslint-config-prettier",
       "type": "build"
     },
     {
@@ -29,6 +45,10 @@
     },
     {
       "name": "eslint-plugin-import",
+      "type": "build"
+    },
+    {
+      "name": "eslint-plugin-prettier",
       "type": "build"
     },
     {
@@ -63,11 +83,20 @@
     },
     {
       "name": "jsii",
-      "version": "~5.2",
+      "version": "^5.4.0",
+      "type": "build"
+    },
+    {
+      "name": "prettier",
       "type": "build"
     },
     {
       "name": "projen",
+      "type": "build"
+    },
+    {
+      "name": "standard-version",
+      "version": "^9",
       "type": "build"
     },
     {
@@ -83,6 +112,10 @@
       "type": "build"
     },
     {
+      "name": "handlebars",
+      "type": "bundled"
+    },
+    {
       "name": "@aws-cdk/integ-runner",
       "version": "latest",
       "type": "devenv"
@@ -94,7 +127,7 @@
     },
     {
       "name": "aws-cdk-lib",
-      "version": "^2.1.0",
+      "version": "^2.138.0",
       "type": "peer"
     },
     {
