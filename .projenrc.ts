@@ -12,6 +12,7 @@ const CDK_VERSION = "2.138.0";
 const project = new CdklabsConstructLibrary({
   name: "@cdklabs/cdk-aws-iot-thing-certificate-policy",
   projenrcTs: true,
+  private: false,
   repositoryUrl:
     "https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy",
   author: "AWS",

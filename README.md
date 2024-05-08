@@ -32,7 +32,7 @@ import { IotThingCertificatePolicy } from "@cdklabs/cdk-aws-iot-thing-certificat
  * the thing to publish and subscribe on any topics under "thing/*" topic
  * namespace. Normal IoT Policy conventions such as "*", apply.
  */
-const minimalIoTPolicy = `{
+const minimalIotPolicy = `{
   "Version": "2012-10-17",
   "Statement": [
     {
@@ -73,7 +73,7 @@ const app = new cdk.App()
 const fooThing = new IotThingCertificatePolicy(app, "MyFooThing", {
   thingName: "foo-thing", // Name to assign to AWS IoT thing, and value for {{thingname}} in policy template
   iotPolicyName: "foo-iot-policy", // Name to assign to AWS IoT policy
-  iotPolicy: minimalIoTPolicy, // Policy with or without substitution parameters from above
+  iotPolicy: minimalIotPolicy, // Policy with or without substitution parameters from above
   encryptionAlgorithm: "ECC", // Algorithm to use to private key (RSA or ECC)
   policyParameterMapping: [
     // substitution names and values for AWS IoT policy template, e.g., {{region}} and {{account}}
@@ -107,7 +107,7 @@ new cdk.CfnOutput(app, "IotEndpoint", {
 **Installation:**
 
 ```shell
-pip install cdk-aws-iot-thing-certificate-policy
+pip install cdklabs.cdk-aws-iot-thing-certificate-policy
 ```
 
 [**API Reference**](doc/api-python.md)
@@ -159,7 +159,7 @@ app = cdk.App()
 foo_thing = IotThingCertificatePolicy(
     app,
     "MyFooThing",
-    thing_name="foo-thin",
+    thing_name="foo-thing",
     iot_policy_name="foo-iot-policy",
     iot_policy=minimal_iot_policy,
     encryption_algorithm="ECC",
@@ -176,8 +176,6 @@ foo_thing = IotThingCertificatePolicy(
 )
 cdk.CfnOutput(app, "ThingArn", value=foo_thing.thing_arn)
 cdk.CfnOutput(app, "IotEndpoint", value=foo_thing.data_ats_endpoint_address)
-
-app.synth()
 ```
 
 </details>
