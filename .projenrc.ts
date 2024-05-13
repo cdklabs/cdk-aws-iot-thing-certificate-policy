@@ -20,6 +20,7 @@ const project = new CdklabsConstructLibrary({
   keywords: ["aws iot", "iot", "thing", "iot policy", "certificate"],
   description:
     "Creates an AWS IoT thing, certificate, policy, and associates the three together",
+  license: "Apache-2.0",
   packageName: "@cdklabs/cdk-aws-iot-thing-certificate-policy",
   deps: [],
   devDeps: [
@@ -128,14 +129,14 @@ const awslintTask = project.addTask("awslint", {
 project.tasks.tryFind("pre-compile")!.prependSpawn(awslintTask);
 
 // Generating documentation for Typescript and python
-const task = project.tasks.tryFind("docgen");
-if (task) {
-  task.reset();
-  task.exec("rm -f doc/api-*.md");
-  task.exec("jsii-docgen -o doc/api-typescript.md -l typescript");
-  task.exec("jsii-docgen -o doc/api-python.md -l python");
-  task.exec("jsii-docgen -o doc/api-java.md -l java");
-  task.exec("jsii-docgen -o doc/api-csharp.md -l csharp");
-  task.exec("jsii-docgen -o doc/api-go.md -l go");
-}
+// const task = project.tasks.tryFind("docgen");
+// if (task) {
+//   task.reset();
+//   task.exec("rm -f doc/api-*.md");
+//   task.exec("jsii-docgen -o doc/api-typescript.md -l typescript");
+//   task.exec("jsii-docgen -o doc/api-python.md -l python");
+//   task.exec("jsii-docgen -o doc/api-java.md -l java");
+//   task.exec("jsii-docgen -o doc/api-csharp.md -l csharp");
+//   task.exec("jsii-docgen -o doc/api-go.md -l go");
+// }
 project.synth();

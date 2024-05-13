@@ -114,22 +114,7 @@
       "description": "Generate API.md from .jsii manifest",
       "steps": [
         {
-          "exec": "rm -f doc/api-*.md"
-        },
-        {
-          "exec": "jsii-docgen -o doc/api-typescript.md -l typescript"
-        },
-        {
-          "exec": "jsii-docgen -o doc/api-python.md -l python"
-        },
-        {
-          "exec": "jsii-docgen -o doc/api-java.md -l java"
-        },
-        {
-          "exec": "jsii-docgen -o doc/api-csharp.md -l csharp"
-        },
-        {
-          "exec": "jsii-docgen -o doc/api-go.md -l go"
+          "exec": "jsii-docgen -o API.md"
         }
       ]
     },
