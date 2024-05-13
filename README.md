@@ -4,10 +4,24 @@
 [![PyPI](https://img.shields.io/pypi/v/cdklabs.cdk-aws-iot-thing-certificate-policy?label=pypi+cdk+v2)](https://pypi.org/project/cdklabs.cdk-aws-iot-thing-certificate-policy/)
 [![Maven version](https://img.shields.io/maven-central/v/io.github.cdklabs/cdk-aws-iot-thing-certificate-policy?label=maven+cdk+v2)](https://central.sonatype.com/artifact/io.github.cdklabs/cdk-aws-iot-thing-certificate-policy)
 [![NuGet version](https://img.shields.io/nuget/v/Cdklabs.CdkAwsIotThingCertificatePolicy?label=nuget+cdk+v2)](https://www.nuget.org/packages/Cdklabs.CdkAwsIotThingCertificatePolicy)
-[![Go version](https://img.shields.io/github/go-mod/go-version/cdklabs/cdk-aws-iot-thing-certificate-policy-go?label=go+cdk+v2&&filename=cdklabscdkawsiotthingcertificatepolicy%2Fgo.mod))](https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy-go)
+[![Go version](https://img.shields.io/github/go-mod/go-version/cdklabs/cdk-aws-iot-thing-certificate-policy-go?label=go+cdk+v2&&filename=cdklabscdkawsiotthingcertificatepolicy%2Fgo.mod)](https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy-go)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy/blob/main/LICENSE)
 
+<!--BEGIN STABILITY BANNER-->
+
+---
+
 ![cdk-constructs: Experimental](https://img.shields.io/badge/cdk--constructs-experimental-important.svg?style=for-the-badge)
+
+> The APIs of higher level constructs in this module are experimental and under active development.
+> They are subject to non-backward compatible changes or removal in any future version. These are
+> not subject to the [Semantic Versioning](https://semver.org/) model and breaking changes will be
+> announced in the release notes. This means that while you may use them, you may need to update
+> your source code when upgrading to a newer version of this package.
+
+---
+
+<!--END STABILITY BANNER-->
 
 [![View on Construct Hub](https://constructs.dev/badge?package=%40cdklabs%2Fcdk-aws-iot-thing-certificate-policy)](https://constructs.dev/packages/@cdklabs/cdk-aws-iot-thing-certificate-policy)
 
@@ -15,22 +29,47 @@ An [L3 CDK construct](https://docs.aws.amazon.com/cdk/v2/guide/constructs.html#c
 
 The certificate and its private key are stored as AWS Systems Manager Parameter Store parameters that can be retrieved via the AWS Console or programmatically via construct members.
 
-## Installation and use
+## Installing
 
-<details>
-  <summary><b>TypeScript</b></summary>
-
-**Installation:**
+### TypeScript/JavaScript
 
 ```shell
-npm install cdk-aws-iot-thing-certificate-policy
+npm install @cdklabs/cdk-aws-iot-thing-certificate-policy
 ```
 
-[**API Reference**](https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy/blob/main/doc/api-typescript.md)
+### Python
 
-**Example:**
+```shell
+pip install cdklabs.cdk-aws-iot-thing-certificate-policy
+```
 
-```ts
+### Java
+
+```xml
+// add this to your pom.xml
+<dependency>
+    <groupId>io.github.cdklabs</groupId>
+    <artifactId>cdk-aws-iot-thing-certificate-policy</artifactId>
+    <version>0.0.0</version> // replace with version
+</dependency>
+```
+
+### .NET
+
+```plaintext
+dotnet add package Cdklabs.CdkAwsIotThingCertificatePolicy --version X.X.X
+```
+
+## Go
+
+```go
+// Add this
+import "github.com/cdklabs/cdk-aws-iot-thing-certificate-policy-go/cdklabscdkawsiotthingcertificatepolicy"
+```
+
+## Usage
+
+```typescript
 import * as cdk from "aws-cdk-lib";
 import { IotThingCertificatePolicy } from "@cdklabs/cdk-aws-iot-thing-certificate-policy";
 /**
@@ -105,126 +144,3 @@ new cdk.CfnOutput(app, "IotEndpoint", {
   value: fooThing.dataAtsEndpointAddress,
 });
 ```
-</details>
-
-
-<details>
-  <summary><b>Python</b></summary>
-
-**Installation:**
-
-```shell
-pip install cdklabs.cdk-aws-iot-thing-certificate-policy
-```
-
-[**API Reference**](https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy/blob/main/doc/api-python.md)
-
-
-
-**Example:**
-
-```python
-import aws_cdk as cdk
-from cdklabs.cdk_aws_iot_thing_certificate_policy import (
-    IotThingCertificatePolicy,
-)
-
-minimal_iot_policy = """{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": ["iot:Connect"],
-      "Resource": "arn:aws:iot:{{region}}:{{account}}:client/{{thingname}}"
-    },
-    {
-      "Effect": "Allow",
-      "Action": ["iot:Publish"],
-      "Resource": [
-        "arn:aws:iot:{{region}}:{{account}}:topic/{{thingname}}/*"
-      ]
-    },
-    {
-      "Effect": "Allow",
-      "Action": ["iot:Subscribe"],
-      "Resource": [
-        "arn:aws:iot:{{region}}:{{account}}:topicfilter/{{thingname}}/*"
-      ]
-    },
-    {
-      "Effect": "Allow",
-      "Action": ["iot:Receive"],
-      "Resource": [
-        "arn:aws:iot:{{region}}:{{account}}:topic/{{thingname}}/*"
-      ]
-    }
-  ]
-}"""
-
-app = cdk.App()
-
-foo_thing = IotThingCertificatePolicy(
-    app,
-    "MyFooThing",
-    thing_name="foo-thing",
-    iot_policy_name="foo-iot-policy",
-    iot_policy=minimal_iot_policy,
-    encryption_algorithm="ECC",
-    policy_parameter_mapping=[
-        {
-            "name": "region",
-            "value": cdk.Fn.ref("AWS::Region")
-        },
-        {
-            "name": "account",
-            "value": cdk.Fn.ref("AWS::AccountId")
-        }
-    ],
-)
-cdk.CfnOutput(app, "ThingArn", value=foo_thing.thing_arn)
-cdk.CfnOutput(app, "IotEndpoint", value=foo_thing.data_ats_endpoint_address)
-```
-
-</details>
-
-<details>
-  <summary><b>Java</b></summary>
-
-**Installation:**
-
-```shell
-Coming Soon
-```
-
-[**API Reference**](https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy/blob/main/doc/api-java.md)
-
-**Example:** _Coming soon_
-</details>
-
-<details>
-  <summary><b>C#</b></summary>
-
-**Installation:**
-
-```shell
-dotnet add package Cdklabs.CdkAwsIotThingCertificatePolicy
-```
-
-[**API Reference**](https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy/blob/main/doc/api-csharp.md)
-
-**Example:** _coming soon_
-</details>
-
-<details>
-  <summary><b>Go</b></summary>
-
-**Installation:**
-
-```shell
-Coming soon
-```
-
-[**API Reference**](https://github.com/cdklabs/cdk-aws-iot-thing-certificate-policy/blob/main/doc/api-go.md)
-
-**Example:** _coming soon_
-</details>
