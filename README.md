@@ -69,7 +69,7 @@ import "github.com/cdklabs/cdk-aws-iot-thing-certificate-policy-go/cdklabscdkaws
 
 ## Usage
 
-```typescript
+```typescript nofixture
 import * as cdk from "aws-cdk-lib";
 import { IotThingCertificatePolicy } from "@cdklabs/cdk-aws-iot-thing-certificate-policy";
 /**
