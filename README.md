@@ -132,6 +132,10 @@ const fooThing = new IotThingCertificatePolicy(app, "MyFooThing", {
       value: cdk.Fn.ref("AWS::AccountId"),
     },
   ],
+  // Optional: if the X.509 Subject is not provided, a set of default values will be used and the
+  // common name (CN) will be set from the thingName parameter.
+  x509Subject:
+    "CN=foo-thing,OU=Information Security,O=ACME Inc.,L=Detroit,ST=Michigan,C=US",
 });
 
 // The AWS IoT Thing Arn as a stack output
