@@ -18,7 +18,7 @@ export class Handler extends lambda.SingletonFunction {
         path.join(__dirname, `../src/${props.handler}`),
         {
           bundling: {
-            image: lambda.Runtime.PYTHON_3_10.bundlingImage,
+            image: lambda.Runtime.PYTHON_3_12.bundlingImage,
             command: [
               "bash",
               "-c",
@@ -30,7 +30,7 @@ export class Handler extends lambda.SingletonFunction {
       architecture: lambda.Architecture.ARM_64,
       handler: props.handler + ".handler",
       timeout: cdk.Duration.seconds(300),
-      runtime: lambda.Runtime.PYTHON_3_10,
+      runtime: lambda.Runtime.PYTHON_3_12,
       logRetention: logs.RetentionDays.ONE_WEEK,
     });
     this.handler = props.handler;

@@ -29,7 +29,7 @@ def handler(event, context):
         return on_update(event, context)
     if request_type == "Delete":
         return on_delete(event, context)
-    raise Exception("Invalid request type: {request_type}")
+    raise TypeError("Invalid request type: {request_type}")
 
 
 def get_aws_client(name):
@@ -54,12 +54,23 @@ def on_create(event: dict, context: dict):
             to return to CDK stack.
     """
     logger.info("Starting execution of on_create function")
+
+    # Populate values from the event context (passed by CDK)
     props = event["ResourceProperties"]
     thing_name: str = props["ThingName"]
     iot_policy: str = props["IotPolicy"]
     iot_policy_name: str = props["IoTPolicyName"]
     stack_name: str = props["StackName"]
     encryption_algo: str = props["EncryptionAlgorithm"]
+    x509Subject: str = props["x509Subject"]
+
+    # Validate provided x509Subject
+    try:
+        subject_rdn = x509.Name.from_rfc4514_string(x509Subject)
+    except ValueError as e:
+        logger.error(f"Error validating certificate subject {x509Subject}, {e}")
+        sys.exit(1)
+
     # Define keys and values to return to calling provider
     function_result: dict = {
         "PhysicalResourceId": "",
@@ -97,23 +108,10 @@ def on_create(event: dict, context: dict):
         encryption_algorithm=serialization.NoEncryption(),
     ).decode("utf-8")
 
-    # Generate a CSR and set subject (CN=dispenserId)
+    # Generate a CSR and set subject from provided RDNs
     csr = (
         x509.CertificateSigningRequestBuilder()
-        .subject_name(
-            x509.Name(
-                [
-                    # Provide various details about who we are.
-                    x509.NameAttribute(NameOID.COUNTRY_NAME, "US"),
-                    x509.NameAttribute(NameOID.STATE_OR_PROVINCE_NAME, "CO"),
-                    x509.NameAttribute(NameOID.LOCALITY_NAME, "Denver"),
-                    x509.NameAttribute(
-                        NameOID.ORGANIZATION_NAME, "Greengrass Accelerator Testing"
-                    ),
-                    x509.NameAttribute(NameOID.COMMON_NAME, thing_name),
-                ]
-            )
-        )
+        .subject_name(subject_rdn)
         .sign(key, hashes.SHA256(), default_backend())
     )
     try:
@@ -331,6 +329,6 @@ def on_update(event: dict, context: dict):
     props = event["ResourceProperties"]
     logger.info(f"update physical resource id: {physical_id} with properties: {props}")
     logger.info("Completed execution of on_update function")
-    raise Exception("Stack update not implemented yet")
+    raise TypeError("Stack update not implemented yet")
     # uncomment return when feature is developed.
     # return {"PhysicalResourceId": physical_id}

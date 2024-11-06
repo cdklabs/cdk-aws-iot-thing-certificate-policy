@@ -35,12 +35,13 @@ export class Provider extends Construct {
   ) {
     super(scope, id);
 
+    /* c8 ignore start */
     this.provider = new cr.Provider(this, "Provider", {
       onEventHandler: eventHandler,
-      /* istanbul ignore next */
       ...(isCompleteHandler && { isCompleteHandler: isCompleteHandler }),
       ...(totalTimeout && { totalTimeout: totalTimeout }),
       logRetention: logs.RetentionDays.ONE_DAY,
     });
+    /* c8 ignore end */
   }
 }

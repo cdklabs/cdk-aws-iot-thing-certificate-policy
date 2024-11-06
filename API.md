@@ -12,7 +12,7 @@ outside of the CloudFormation stack or by other constructs.
 
 Use this construct to create and delete a thing, certificate (principal), and IoT policy for
 testing or other singular uses. **Note:** Destroying this stack will fully detach and delete
-all created IoT resources.
+all created IoT resources including the AWS IoT thing, certificate, and policy.
 
 #### Initializers <a name="Initializers" id="@cdklabs/cdk-aws-iot-thing-certificate-policy.IotThingCertificatePolicy.Initializer"></a>
 
@@ -231,6 +231,7 @@ const iotThingCertificatePolicyProps: IotThingCertificatePolicyProps = { ... }
 | <code><a href="#@cdklabs/cdk-aws-iot-thing-certificate-policy.IotThingCertificatePolicyProps.property.thingName">thingName</a></code> | <code>string</code> | Name of AWS IoT thing to create. |
 | <code><a href="#@cdklabs/cdk-aws-iot-thing-certificate-policy.IotThingCertificatePolicyProps.property.encryptionAlgorithm">encryptionAlgorithm</a></code> | <code>string</code> | Selects RSA or ECC private key and certificate generation. |
 | <code><a href="#@cdklabs/cdk-aws-iot-thing-certificate-policy.IotThingCertificatePolicyProps.property.policyParameterMapping">policyParameterMapping</a></code> | <code><a href="#@cdklabs/cdk-aws-iot-thing-certificate-policy.PolicyMapping">PolicyMapping</a>[]</code> | Optional: A `PolicyMapping` object of parameters and values to be replaced if a [mustache-compatible](https://handlebarsjs.com/guide/) template is provided as the `iotPolicy` (see example). For each matching parameter in the policy template, the value will be used. If not provided, only the `{{thingname}}` mapping will be available for the `iotPolicy` template. |
+| <code><a href="#@cdklabs/cdk-aws-iot-thing-certificate-policy.IotThingCertificatePolicyProps.property.x509Subject">x509Subject</a></code> | <code>string</code> | Optional: An [RFC 4514 string](https://datatracker.ietf.org/doc/html/rfc4514#section-4) containing the requested _Subject_ named attributes for the certificate signing request. The string must start with the "leaf", or Common Name (CN) relative distinguished name (RDN), and then followed by the rest of the optional RDNs. Example: "CN=myThingName,OU=My Local Org,O=My Company,L=Seattle,S=Washington,C=US". |
 
 ---
 
@@ -304,9 +305,24 @@ Optional: A `PolicyMapping` object of parameters and values to be replaced if a 
 
 ---
 
+##### `x509Subject`<sup>Optional</sup> <a name="x509Subject" id="@cdklabs/cdk-aws-iot-thing-certificate-policy.IotThingCertificatePolicyProps.property.x509Subject"></a>
+
+```typescript
+public readonly x509Subject: string;
+```
+
+- *Type:* string
+- *Default:* None
+
+Optional: An [RFC 4514 string](https://datatracker.ietf.org/doc/html/rfc4514#section-4) containing the requested _Subject_ named attributes for the certificate signing request. The string must start with the "leaf", or Common Name (CN) relative distinguished name (RDN), and then followed by the rest of the optional RDNs. Example: "CN=myThingName,OU=My Local Org,O=My Company,L=Seattle,S=Washington,C=US".
+
+---
+
 ### PolicyMapping <a name="PolicyMapping" id="@cdklabs/cdk-aws-iot-thing-certificate-policy.PolicyMapping"></a>
 
 Policy substitutions provided as key-value pairs.
+
+Done this way to be JSII compatible.
 
 #### Initializer <a name="Initializer" id="@cdklabs/cdk-aws-iot-thing-certificate-policy.PolicyMapping.Initializer"></a>
 

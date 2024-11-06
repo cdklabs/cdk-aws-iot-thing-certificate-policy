@@ -8,7 +8,7 @@ import { Handler } from "./handler";
 import { Provider } from "./provider";
 
 /**
- * Policy substitutions provided as key-value pairs.
+ * Policy substitutions provided as key-value pairs. Done this way to be JSII compatible.
  */
 export interface PolicyMapping {
   /**
@@ -64,6 +64,15 @@ export interface IotThingCertificatePolicyProps {
    * @default - RSA
    */
   readonly encryptionAlgorithm?: string;
+  /**
+   * Optional: An [RFC 4514 string](https://datatracker.ietf.org/doc/html/rfc4514#section-4) containing the
+   * requested _Subject_ named attributes for the certificate signing request. The string must start with the
+   * "leaf", or Common Name (CN) relative distinguished name (RDN), and then followed by the rest of the optional
+   * RDNs. Example: "CN=myThingName,OU=My Local Org,O=My Company,L=Seattle,S=Washington,C=US"
+   *
+   * @default - None
+   */
+  readonly x509Subject?: string;
 }
 
 /**
@@ -74,7 +83,7 @@ export interface IotThingCertificatePolicyProps {
  *
  * Use this construct to create and delete a thing, certificate (principal), and IoT policy for
  * testing or other singular uses. **Note:** Destroying this stack will fully detach and delete
- * all created IoT resources.
+ * all created IoT resources including the AWS IoT thing, certificate, and policy.
  *
  * @summary Creates and associates an AWS IoT thing, certificate and policy.
  */
@@ -155,6 +164,26 @@ export class IotThingCertificatePolicy extends Construct {
       );
     }
 
+    /**
+     *  If a subject string is provided, validate, and add Common Name (CN) set to thingName
+     * if not already provided.
+     */
+    let x509Subject: string;
+    if (props.x509Subject) {
+      // Verify that CN is provided.
+      const cnRegex = /CN=([^,]*)/;
+      const match = props.x509Subject.match(cnRegex);
+      if (match) {
+        x509Subject = props.x509Subject;
+      } else {
+        throw new Error(
+          "Invalid x509Subject, must contain a Common Name (CN).",
+        );
+      }
+    } else {
+      x509Subject = `CN=${props.thingName},OU=Amazon Web Services,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US`;
+    }
+
     const handler = new Handler(this, "Handler", {
       handler: "thing_cert_policy",
     });
@@ -170,12 +199,16 @@ export class IotThingCertificatePolicy extends Construct {
           IotPolicy: iotPolicy,
           IoTPolicyName: props.iotPolicyName,
           EncryptionAlgorithm: encryptionAlgorithm,
+          x509Subject: x509Subject,
         },
       },
     );
 
     // Custom resource Lambda role permissions
+    // The addition to the handler role works, excluding to clean up jest branch execution output
+
     // Permissions to act on thing, certificate, and policy
+    /* c8 ignore next */
     handler.role?.addToPrincipalPolicy(
       new iam.PolicyStatement({
         actions: ["iot:CreateThing", "iot:DeleteThing"],
@@ -188,6 +221,7 @@ export class IotThingCertificatePolicy extends Construct {
     );
 
     // Create and delete specific IoT policy
+    /* c8 ignore next */
     handler.role?.addToPrincipalPolicy(
       new iam.PolicyStatement({
         actions: [
@@ -206,6 +240,7 @@ export class IotThingCertificatePolicy extends Construct {
     );
 
     // Create SSM parameter
+    /* c8 ignore next */
     handler.role?.addToPrincipalPolicy(
       new iam.PolicyStatement({
         actions: ["ssm:DeleteParameters", "ssm:PutParameter"],
@@ -225,6 +260,7 @@ export class IotThingCertificatePolicy extends Construct {
     );
 
     // Actions without resource types
+    /* c8 ignore next */
     handler.role?.addToPrincipalPolicy(
       new iam.PolicyStatement({
         actions: [

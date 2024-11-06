@@ -92,6 +92,7 @@ export class TwoResourceStack extends cdk.Stack {
           value: cdk.Fn.ref("AWS::AccountId"),
         },
       ],
+      x509Subject: "CN=foo,OU=bar",
     });
   }
 }
@@ -139,6 +140,29 @@ export class BadIotPolicyStack extends cdk.Stack {
           value: cdk.Fn.ref("AWS::AccountId"),
         },
       ],
+    });
+  }
+}
+
+export class BadX509SubjectStack extends cdk.Stack {
+  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
+    super(scope, id, props);
+
+    new IotThingCertificatePolicy(this, "test-construct1", {
+      thingName: "test1",
+      iotPolicyName: "test_policyname1",
+      iotPolicy: minimalIoTPolicy,
+      policyParameterMapping: [
+        {
+          name: "region",
+          value: cdk.Fn.ref("AWS::Region"),
+        },
+        {
+          name: "account",
+          value: cdk.Fn.ref("AWS::AccountId"),
+        },
+      ],
+      x509Subject: "OU=Missing CN Value",
     });
   }
 }
@@ -252,7 +276,7 @@ describe("TwoResourceStack", () => {
     const template = Template.fromStack(stack);
     template.hasResourceProperties("AWS::Lambda::Function", {
       Handler: "thing_cert_policy.handler",
-      Runtime: "python3.10",
+      Runtime: "python3.12",
     });
   });
   test("No unsuppressed cdk-nag Warnings", () => {
@@ -300,6 +324,16 @@ describe("Invalid Arguments to construct", () => {
       }).toThrow(
         "Invalid JSON for iotPolicy, verify template syntax and parameters will create valid JSON.",
       );
+    });
+  });
+  describe("given a missing CN from X.509 subject", () => {
+    test("with trailing comma", () => {
+      expect(() => {
+        const app = new cdk.App();
+        new BadX509SubjectStack(app, "ConstructTestStack", {
+          env,
+        });
+      }).toThrow("Invalid x509Subject, must contain a Common Name (CN).");
     });
   });
 });
