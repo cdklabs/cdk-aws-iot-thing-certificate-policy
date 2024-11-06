@@ -68,7 +68,7 @@ export interface IotThingCertificatePolicyProps {
    * Optional: An [RFC 4514 string](https://datatracker.ietf.org/doc/html/rfc4514#section-4) containing the
    * requested _Subject_ named attributes for the certificate signing request. The string must start with the
    * "leaf", or Common Name (CN) relative distinguished name (RDN), and then followed by the rest of the optional
-   * RDNs. Example: "CN=myThingName,OU=My Local Org,O=My Company,L=Seattle,S=Washington,C=US"
+   * RDNs. Example: `CN=myThingName,OU=My Local Org,O=My Company,L=Seattle,S=Washington,C=US`
    *
    * @default - None
    */
