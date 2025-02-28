@@ -51,7 +51,7 @@
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
-    "aws-cdk-lib": "2.138.0",
+    "aws-cdk-lib": "2.177.0",
     "awslint": "^2.72.1",
     "cdk-nag": "^2.35.32",
     "cdklabs-projen-project-types": "^0.1.208",
