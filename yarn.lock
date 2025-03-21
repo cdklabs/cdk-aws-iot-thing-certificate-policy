@@ -808,9 +808,9 @@
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
 "@pkgr/core@^0.1.0":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.1.1.tgz#1ec17e2edbec25c8306d424ecfbf13c7de1aaa31"
-  integrity sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.1.2.tgz#1cf95080bb7072fafaa3cb13b442fab4695c3893"
+  integrity sha512-fdDH1LSGfZdTH2sxdpVMw31BanV28K/Gry0cVFxaNP77neJSkd82mM8ErPNYs9e+0O7SdHBLTDzDgwUuy18RnQ==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -1571,10 +1571,10 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk-nag@^2.35.49:
-  version "2.35.49"
-  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.35.49.tgz#370f758d6e0ad5208ad739223f1b1e4a97d507fe"
-  integrity sha512-K+4wJ6Gtf1QyJQxZR4hPxIN5+3kKLdEjmC0KErXuu0dLAtQ6zvhveJXEyIiUXDNEED/APJ1MYC1mKW96OnkHkA==
+cdk-nag@^2.35.50:
+  version "2.35.50"
+  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.35.50.tgz#7471c5f05a854253f847f831469c51db201fbb0e"
+  integrity sha512-OgoJ4gLZWFlhPKXWy7oOciBBbXSbE552TtSeqA0a8Ilh74tmiaYEbr8YvnqFZOaGfW87PRI5kRz3xIFXYtL/YA==
 
 cdklabs-projen-project-types@^0.1.208:
   version "0.1.208"
@@ -2155,9 +2155,9 @@ ejs@^3.1.10:
     jake "^10.8.5"
 
 electron-to-chromium@^1.5.73:
-  version "1.5.120"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.120.tgz#ccfdd28e9795fb8c2221cefa2c9a071501c86247"
-  integrity sha512-oTUp3gfX1gZI+xfD2djr2rzQdHCwHzPQrrK0CD7WpTdF0nPdQ/INcRVjWgLdCT4a9W3jFObR9DAfsuyFQnI8CQ==
+  version "1.5.123"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.123.tgz#fae5bdba0ba27045895176327aa79831aba0790c"
+  integrity sha512-refir3NlutEZqlKaBLK0tzlVLe5P2wDKS7UQt/3SpibizgsRAPOsqQC3ffw1nlv3ze5gjRQZYHoPymgVZkplFA==
 
 emittery@^0.13.1:
   version "0.13.1"
