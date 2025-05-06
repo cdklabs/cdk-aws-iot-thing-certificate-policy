@@ -22,9 +22,9 @@
     lru-cache "^10.4.3"
 
 "@aws-cdk/asset-awscli-v1@^2.2.202":
-  version "2.2.234"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.234.tgz#806a8926981b548617d4b07b861d9dedbe888406"
-  integrity sha512-8ayvzYK7Acy9KvqXJp2vjw0z+HCJWBSqPmsaLbmdTtB/eYHn89UCNPurrj4KFWhM5+pGnSU6r7BPyRiYEjSU3w==
+  version "2.2.235"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.235.tgz#e529bc2a44ebcb26ffef8d2c6ef60df1abd0aa92"
+  integrity sha512-CpM9ids39j27Rt25iHP4sX619xb0OW6f8VS4XJbyI27XnQElmoMwtWw1IOAwDhWQEO2OuJwAu5pXfrLTfNaDEg==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.2":
   version "2.1.4"
@@ -933,16 +933,16 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*":
-  version "22.15.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.3.tgz#b7fb9396a8ec5b5dfb1345d8ac2502060e9af68b"
-  integrity sha512-lX7HFZeHf4QG/J7tBZqrCAXwz9J5RD56Y6MpP0eJkka8p+K0RY/yBTW7CYFJ4VGCclxqOLKmiGP5juQc6MKgcw==
+  version "22.15.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.9.tgz#05a92409e7002356401df0b90267b296907937f7"
+  integrity sha512-l6QaCgJSJQ0HngL1TjvEY2DlefKggyGeXP1KYvYLBX41ZDPM1FsgDMAr5c+T673NMy7VCptMOzXOuJqf5uB0bA==
   dependencies:
     undici-types "~6.21.0"
 
 "@types/node@^18":
-  version "18.19.87"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.87.tgz#690f000cc51e3c7f48bc00f7e86fac6eb550b709"
-  integrity sha512-OIAAu6ypnVZHmsHCeJ+7CCSub38QNBS9uceMQeg7K5Ur0Jr+wG9wEOEvvMbhp09pxD5czIUy/jND7s7Tb6Nw7A==
+  version "18.19.93"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.93.tgz#f5c132ff0592fdda796af4bdcc0e471e949188d7"
+  integrity sha512-11oqLpOCRmRCw3pgmcd7wiadQToDV4ho0NnZ9KGgpzOGCcpMTo3UEAgs7Y29tzZODazGibIXorykwqWq2ncvHQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -1584,19 +1584,19 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001716:
-  version "1.0.30001716"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001716.tgz#39220dfbc58c85d9d4519e7090b656aa11ca4b85"
-  integrity sha512-49/c1+x3Kwz7ZIWt+4DvK3aMJy9oYXXG6/97JKsnjdCk/6n9vVyWL8NAwVt95Lwt9eigI10Hl782kDfZUUlRXw==
+  version "1.0.30001717"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001717.tgz#5d9fec5ce09796a1893013825510678928aca129"
+  integrity sha512-auPpttCq6BDEG8ZAuHJIplGw6GODhjw+/11e7IjpnYCxZcW/ONgPs0KVBJ0d1bY3e2+7PRe5RCLyP+PfwVgkYw==
 
 case@1.6.3, case@^1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk-nag@^2.35.88:
-  version "2.35.88"
-  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.35.88.tgz#e06913a952ff9052e9ff7c1fe1da5631a63e0ba6"
-  integrity sha512-5I5RPgDg8i8NAqTIyC5786r9USXFJRhh0ZTEQgNj7QiOc+UF0iXY+8Vl7CYaQ7eJ7e14IljhINkx/n1CkeU6jA==
+cdk-nag@^2.35.89:
+  version "2.35.89"
+  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.35.89.tgz#6776c4854eccaccdd3b503d0e6d3d6568ea373e7"
+  integrity sha512-QM4e4nNSL7gKi3e5vHgG7vpQa3oRi9kprgQ+6z69G37muu1p+aM6OltP8ycrXuQQN5YwgewnSOJAQaZZQdiu0Q==
 
 cdklabs-projen-project-types@^0.1.208:
   version "0.1.208"
@@ -2177,9 +2177,9 @@ ejs@^3.1.10:
     jake "^10.8.5"
 
 electron-to-chromium@^1.5.149:
-  version "1.5.149"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.149.tgz#b6d1a468b9537165e2494d0b5b82e9b3392d0ddb"
-  integrity sha512-UyiO82eb9dVOx8YO3ajDf9jz2kKyt98DEITRdeLPstOEuTlLzDA4Gyq5K9he71TQziU5jUVu2OAu5N48HmQiyQ==
+  version "1.5.150"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.150.tgz#3120bf34453a7a82cb4d9335df20680b2bb40649"
+  integrity sha512-rOOkP2ZUMx1yL4fCxXQKDHQ8ZXwisb2OycOQVKHgvB3ZI4CvehOd4y2tfnnLDieJ3Zs1RL1Dlp3cMkyIn7nnXA==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -2387,10 +2387,10 @@ eslint-plugin-import@^2.31.0:
     string.prototype.trimend "^1.0.8"
     tsconfig-paths "^3.15.0"
 
-eslint-plugin-prettier@^5.3.1:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.3.1.tgz#9a16effb2d9d1c6ff44d182f48becfc54d5cff5a"
-  integrity sha512-vad9VWgEm9xaVXRNmb4aeOt0PWDc61IAdzghkbYQ2wavgax148iKoX1rNJcgkBGCipzLzOnHYVgL7xudM9yccQ==
+eslint-plugin-prettier@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.4.0.tgz#54d4748904e58eaf1ffe26c4bffa4986ca7f952b"
+  integrity sha512-BvQOvUhkVQM1i63iMETK9Hjud9QhqBnbtT1Zc642p9ynzBuCe5pybkOnvqZIBypXmMlsGcnU4HZ8sCTPfpAexA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.11.0"
@@ -3922,10 +3922,10 @@ jsii-reflect@^1.111.0:
     oo-ascii-tree "^1.111.0"
     yargs "^16.2.0"
 
-jsii-rosetta@^5.8.6:
-  version "5.8.6"
-  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.8.6.tgz#d4c5526c7f58035ba17eb1d4d9020645ab98275d"
-  integrity sha512-Hc3ISSZPODFjuS8SFIPnr2klwWgi6VMwE8YgGNAAVVInIrAqw3/SlfdGKJBcGEMLEPBAXLTu8yPSWbD7Gsu/zw==
+jsii-rosetta@^5.8.7:
+  version "5.8.7"
+  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.8.7.tgz#c88d7dedf51bb5068ac6d69e4dd9bf6a27451c84"
+  integrity sha512-8Ecl+BcCUXgRvqx9wqnVRqTlADuwdjS35sYSrKuXyAyLntdwlqn1NP3kMLLn20PBGjTkeqbCt8VmRox4hBASNA==
   dependencies:
     "@jsii/check-node" "1.111.0"
     "@jsii/spec" "^1.111.0"
@@ -3942,9 +3942,9 @@ jsii-rosetta@^5.8.6:
     yargs "^17.7.2"
 
 jsii@^5.4.0, jsii@~5.8.0:
-  version "5.8.7"
-  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.8.7.tgz#b38280e71d32440f5f20fa18561dd4911ef4a8ad"
-  integrity sha512-q0XwDDM7CIQUdgB7yhUtTA8gh0XZogRobBD8ovG+PUw5eYLco7KTAG1NoW2NktxX/YiaibDALfFrsV0Pb1S4BQ==
+  version "5.8.8"
+  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.8.8.tgz#72b03fe4a1a2461f4e00a3a2d7a64a9ff74d1af7"
+  integrity sha512-TSgHsnYNJq1W5ILdIE3tUJ3lLjSbp2VhDolBZ4SU7IYfEbW1dg9kpFLe7J/XPgQXfHlf5eUzOPVXyV/9rXft1w==
   dependencies:
     "@jsii/check-node" "1.111.0"
     "@jsii/spec" "^1.111.0"
