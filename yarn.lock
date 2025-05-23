@@ -1593,10 +1593,10 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk-nag@^2.35.103:
-  version "2.35.103"
-  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.35.103.tgz#fd7ae02d4309c9fe930ce80c8177474faa34d62a"
-  integrity sha512-s0t7WUhFs3Ss3Hp9t1a5Ui63OrQamFrXQKw+WajHbztdjTTUAsbEVVkD4Ix84oHPbVBwnkAqn9jBEhlSLHcHEA==
+cdk-nag@^2.35.104:
+  version "2.35.104"
+  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.35.104.tgz#35b7d953fba0ee6f4132ebc5db386bfff740edce"
+  integrity sha512-ZK302x5ITc2JbR7lHfbyN6nQYo+5wjSK8gmEl6fZit39yC2s+eWJkIVh5y9IR4UKCCxPntuLY6fXTys9fGWFGA==
 
 cdklabs-projen-project-types@^0.1.208:
   version "0.1.208"
@@ -2177,9 +2177,9 @@ ejs@^3.1.10:
     jake "^10.8.5"
 
 electron-to-chromium@^1.5.149:
-  version "1.5.155"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.155.tgz#809dd0ae9ae1db87c358e0c0c17c09a2ffc432d1"
-  integrity sha512-ps5KcGGmwL8VaeJlvlDlu4fORQpv3+GIcF5I3f9tUKUlJ/wsysh6HU8P5L1XWRYeXfA0oJd4PyM8ds8zTFf6Ng==
+  version "1.5.156"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.156.tgz#26bc1fe40d0f364410aaa92ffc13a3e9820f6aa5"
+  integrity sha512-QeOqv11TSASsY/3Ft3LUyDqEiEOph5/85srEPFUo9wuGFNTb0/z5fGE/+ZzTrYvSTGoXNkdQLTw3MKRmgyOyGA==
 
 emittery@^0.13.1:
   version "0.13.1"
