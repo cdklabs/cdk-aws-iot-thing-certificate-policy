@@ -1593,10 +1593,10 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk-nag@^2.36.3:
-  version "2.36.3"
-  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.36.3.tgz#8bf29b78207270c205016e26a2ca65492f740d61"
-  integrity sha512-jgqNCxVSQxRTVK8LBgILMSowoz8BFIbbNh6WZGTSSwe82W61w33gTmdjJmWDsHHysjuApJE/0d94kmyTcjKHKA==
+cdk-nag@^2.36.4:
+  version "2.36.4"
+  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.36.4.tgz#86a6042d0270b5f2e93da74c92a413a6a1980435"
+  integrity sha512-pyu+zZYahYkQmPlNzyx644ipXFJC0QLoNOZsJfnIW+D8tNWUx/5JpFHN24LlaCp7nyfY9eKWeTRPhGUsbawSWw==
 
 cdklabs-projen-project-types@^0.1.208:
   version "0.1.208"
