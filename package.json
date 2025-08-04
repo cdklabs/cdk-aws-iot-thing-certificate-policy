@@ -71,7 +71,7 @@
     "jsii-rosetta": "^5.8.13",
     "prettier": "^3.6.2",
     "projen": "^0.88.8",
-    "ts-jest": "^29.4.0",
+    "ts-jest": "^29.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
