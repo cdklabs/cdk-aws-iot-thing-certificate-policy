@@ -1599,10 +1599,10 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk-nag@^2.37.5:
-  version "2.37.5"
-  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.37.5.tgz#5f38051197b444dd2ff58f53459091029bab8ece"
-  integrity sha512-AGE5F6PISA0cOv/SF8YY8NaMlhvybcYLn7xVmrqiiY1kW7OYGp4AP49OffQTm3jrs31Dd2R/GHdPIz2fO6NoUw==
+cdk-nag@^2.37.6:
+  version "2.37.6"
+  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.37.6.tgz#fa11fce3c7178fa3fdcd6d9bf3ff26ed5731f92e"
+  integrity sha512-0i9IwYfkXB/GpBfYmp6NI/pr6XxUberA0HEVsSMD8CYhOa8zBoUVCdntgTPU6G+7CO2Avs+uNG+JHELE3SowGA==
 
 cdklabs-projen-project-types@^0.1.208:
   version "0.1.208"
@@ -2176,9 +2176,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.204:
-  version "1.5.204"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.204.tgz#45ffed15ea3ca5d43e3205b52082721bc988d0ba"
-  integrity sha512-s9VbBXWxfDrl67PlO4avwh0/GU2vcwx8Fph3wlR8LJl7ySGYId59EFE17VWVcuC3sLWNPENm6Z/uGqKbkPCcXA==
+  version "1.5.207"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.207.tgz#0fedde3eec615065ee95531c09a10578644c5552"
+  integrity sha512-mryFrrL/GXDTmAtIVMVf+eIXM09BBPlO5IQ7lUyKmK8d+A4VpRGG+M3ofoVef6qyF8s60rJei8ymlJxjUA8Faw==
 
 emittery@^0.13.1:
   version "0.13.1"
