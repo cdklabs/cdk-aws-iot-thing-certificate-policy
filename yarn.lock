@@ -55,9 +55,9 @@
     fsevents "2.3.2"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.211.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.211.0-alpha.0.tgz#4472fcbd5d13a6615ea2f1547821655c07a66a77"
-  integrity sha512-klPbkX5RNPCHksDMXEAftneWGr4f/SyfuJuMZbqso3ua7PB1oOp9jLxxVPdGqZ4sYuwnnRR76GF37Ue1WIzJSw==
+  version "2.212.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.212.0-alpha.0.tgz#d1f5f6cc3aa1c839439ce83a2f7b3ec4c3f481a8"
+  integrity sha512-hVG12vTNNUG3aZFfcMj7a9Cp/lFVv1j8ncK7RVSfQ/Gb2QsQA4fAk6DSHfS3fnxmo4Iqv3ExkuD1XBegpkFB2Q==
 
 "@aws-cdk/service-spec-types@^0.0.156":
   version "0.0.156"
@@ -1599,10 +1599,10 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk-nag@^2.37.6:
-  version "2.37.6"
-  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.37.6.tgz#fa11fce3c7178fa3fdcd6d9bf3ff26ed5731f92e"
-  integrity sha512-0i9IwYfkXB/GpBfYmp6NI/pr6XxUberA0HEVsSMD8CYhOa8zBoUVCdntgTPU6G+7CO2Avs+uNG+JHELE3SowGA==
+cdk-nag@^2.37.7:
+  version "2.37.7"
+  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.37.7.tgz#a28aec574741d31ecbb938e01eaae49395625821"
+  integrity sha512-pLwiL5tCUnsuB5Rsn7x/9J9Es8v11R3nWYatuSN/7UuGaU399b/R8yyYSMyWT/YVISqpJXl301xFycuSoVg8xg==
 
 cdklabs-projen-project-types@^0.1.208:
   version "0.1.208"
