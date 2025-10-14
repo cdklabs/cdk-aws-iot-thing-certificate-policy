@@ -14,9 +14,9 @@
     lru-cache "^10.4.3"
 
 "@aws-cdk/asset-awscli-v1@^2.2.202":
-  version "2.2.255"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.255.tgz#ab7074cd93c34b8b69a7e2049045fedcd946fb8a"
-  integrity sha512-uKZcIscp+nkm1f3fpbYu7jSCa82rY35BM+/RjlCdKGGY9OloT5+bQNRwGSn9gMLfZWZOrDyvZ1tZrkvRKlyN8w==
+  version "2.2.256"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.256.tgz#bd36300a45ffa34e96ac4a620f98ab074c779640"
+  integrity sha512-6BK41NOd12mGReSN6ooZZxnZcuSqL/Dc9E8htZDJnq/gaAaebxi09DFbLe6Q6Lo2aY4wySXeBrlquoDINxVGwQ==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.2":
   version "2.1.4"
@@ -727,13 +727,6 @@
   dependencies:
     chalk "^4.1.2"
     semver "^7.3.8"
-
-"@jsii/spec@1.114.1":
-  version "1.114.1"
-  resolved "https://registry.yarnpkg.com/@jsii/spec/-/spec-1.114.1.tgz#9c064d57f062d913bcfda25b5496bdf4c9c95c46"
-  integrity sha512-SdjVQaNqLkTUK+2R0/t/MnM/NBvv1vzqxO5sn1nnoFD5Wlih8TFOIjl+Q8npzYmOtN+et3D+BMVYrxmVfq4X0w==
-  dependencies:
-    ajv "^8.17.1"
 
 "@jsii/spec@1.115.0", "@jsii/spec@^1.114.1", "@jsii/spec@^1.115.0", "@jsii/spec@^1.78.1":
   version "1.115.0"
@@ -2197,9 +2190,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.227:
-  version "1.5.234"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.234.tgz#d895b6dba84269f4e83b3a1149dcc55e27848c30"
-  integrity sha512-RXfEp2x+VRYn8jbKfQlRImzoJU01kyDvVPBmG39eU2iuRVhuS6vQNocB8J0/8GrIMLnPzgz4eW6WiRnJkTuNWg==
+  version "1.5.235"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.235.tgz#778dac70537ed9e9e0abf25a49cc94b5a23aaa0e"
+  integrity sha512-i/7ntLFwOdoHY7sgjlTIDo4Sl8EdoTjWIaKinYOVfC6bOp71bmwenyZthWHcasxgHDNWbWxvG9M3Ia116zIaYQ==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -3880,9 +3873,9 @@ jsii-diff@^1.115.0:
     yargs "^17.7.2"
 
 jsii-docgen@^10.5.0:
-  version "10.10.0"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.10.0.tgz#e24070ecc319b2c9bfd6b6ca3dd9d3c228503d7a"
-  integrity sha512-tOF9Jeqz2pow71BlnzhWdqjnw4m0qOWleTs7yj4tROrLJHjWePcAzkVB0PLsjdkRWlbs1oefRwsw5Z30qgpsQw==
+  version "10.10.1"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.10.1.tgz#aedc4f0a834d19aa870abbd3fc7793f3fb3a2a0a"
+  integrity sha512-Reabgv6WeQRi9qCWpB+YtJWNjS/7Ly7MSsC64GTc7ywdirov3b4lqTLe+RJilCktvjKaVzmfRTkDJz+c+lCdPA==
   dependencies:
     "@jsii/spec" "^1.115.0"
     case "^1.6.3"
@@ -3891,7 +3884,7 @@ jsii-docgen@^10.5.0:
     glob-promise "^6.0.7"
     jsii-reflect "^1.115.0"
     json-stream-stringify "^3.1.6"
-    semver "^7.7.2"
+    semver "^7.7.3"
     yargs "^16.2.0"
 
 jsii-pacmak@^1.115.0:
@@ -3956,17 +3949,17 @@ jsii-rosetta@^5.9.8:
     yargs "^17.7.2"
 
 jsii@^5.4.0, jsii@~5.9.1:
-  version "5.9.7"
-  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.9.7.tgz#26be467316e6ae2034ccd1f5f9f7559b05c731d3"
-  integrity sha512-ozdEz7gF5uxlYvC+Ze8IkcpQI6svLvusqNSfhl7l5nzi1gYdPedzEQp0Vl8M4cSDxkOmgh2Bz3/K/d7HkGM2qQ==
+  version "5.9.8"
+  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.9.8.tgz#f451b876cacf49ffe7a6fcd261819123de9615bd"
+  integrity sha512-aV+ikLxz6BPtcm5Px6tedfLYGn9+Kg2ObVfpEz9MxMKzptlLT1WAP0juR8H2n3krqEb7aa0j3Sahs/QoQKtDaA==
   dependencies:
-    "@jsii/check-node" "1.114.1"
-    "@jsii/spec" "1.114.1"
+    "@jsii/check-node" "1.115.0"
+    "@jsii/spec" "1.115.0"
     case "^1.6.3"
     chalk "^4"
     fast-deep-equal "^3.1.3"
     log4js "^6.9.1"
-    semver "^7.7.2"
+    semver "^7.7.3"
     semver-intersect "^1.5.0"
     sort-json "^2.0.1"
     spdx-license-list "^6.10.0"
