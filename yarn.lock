@@ -37,12 +37,12 @@
     "@cdklabs/tskb" "^0.0.3"
 
 "@aws-cdk/integ-runner@latest":
-  version "2.192.1"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.192.1.tgz#4dd69684671c659cf33dac896998ed60af25f90e"
-  integrity sha512-RZleCR2+EMxW3dnGT+kyRX3uaTAhhUEtAC8CAJFqvY/SoUvob+CtM5AWIXLPhbwHhXNXjLIImoK0R0dLM558mA==
+  version "2.192.2"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.192.2.tgz#831ea8c2cf88a419914fea820a4a5ae6ee18d40e"
+  integrity sha512-bGp+2MglDLOHTP2skCnUKUfLunnDQ4vlhgmf3k815lBdrRT/jxIgEM71NWyOdPqTu6EqgALJavznS6QKZfF4ow==
   dependencies:
     "@aws-cdk/aws-service-spec" "0.1.98"
-    aws-cdk "2.1032.0"
+    aws-cdk "2.1033.0"
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -1401,10 +1401,10 @@ aws-cdk-lib@2.138.0:
     table "^6.8.2"
     yaml "1.10.2"
 
-aws-cdk@2.1032.0:
-  version "2.1032.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1032.0.tgz#33f4b99f228dafb78fe38fa65cd020abd790894a"
-  integrity sha512-OFvTnwPrRsFklmPdTAX1li9s6yBWknVlojVy7geuBeJyMZo3aNIe6sbINYjKagRNFhacidbz2RocM7LcwQVY7w==
+aws-cdk@2.1033.0:
+  version "2.1033.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1033.0.tgz#2cbfb3c3b13aa3b6ced5b7b2a774bae7ae37a288"
+  integrity sha512-Pit2k7cVAwxoYI7RMVsOyltuy7/HGENLupJ4KAm/d8mGzOfX+SLOo9YQsx5CKY9J6ErCZ1ViLerklTfjytvQww==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -1596,9 +1596,9 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001754:
-  version "1.0.30001755"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001755.tgz#c01cfb1c30f5acf1229391666ec03492f4c332ff"
-  integrity sha512-44V+Jm6ctPj7R52Na4TLi3Zri4dWUljJd+RDm+j8LtNCc/ihLCT+X1TzoOAkRETEWqjuLnh9581Tl80FvK7jVA==
+  version "1.0.30001756"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001756.tgz#fe80104631102f88e58cad8aa203a2c3e5ec9ebd"
+  integrity sha512-4HnCNKbMLkLdhJz3TToeVWHSnfJvPaq6vu/eRP0Ahub/07n484XHhBF5AJoSGHdVrS8tKFauUQz8Bp9P7LVx7A==
 
 case@1.6.3, case@^1.6.3:
   version "1.6.3"
@@ -2182,9 +2182,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.249:
-  version "1.5.256"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.256.tgz#f07f78de0893ab060f60ac897195c029a3b50d1a"
-  integrity sha512-uqYq1IQhpXXLX+HgiXdyOZml7spy4xfy42yPxcCCRjswp0fYM2X+JwCON07lqnpLEGVCj739B7Yr+FngmHBMEQ==
+  version "1.5.257"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.257.tgz#5ddd164fdc45fdfcb1ae88a424ec38734e4b8874"
+  integrity sha512-VNSOB6JZan5IQNMqaurYpZC4bDPXcvKlUwVD/ztMeVD7SwOpMYGOY7dgt+4lNiIHIpvv/FdULnZKqKEy2KcuHQ==
 
 emittery@^0.13.1:
   version "0.13.1"
