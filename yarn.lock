@@ -47,9 +47,9 @@
     fsevents "2.3.2"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.229.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.229.1-alpha.0.tgz#9f26e5634b47ad797460ae8aa2f70d24801f07a8"
-  integrity sha512-m5eWjL+glKNc1991iyqlkUEVnEfNaS16W6KhBdiHz191QqK/M5sGlNpOfYekJKON4Xc4pUc9pIB/HqF8XZ8+nA==
+  version "2.230.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.230.0-alpha.0.tgz#f09a791c505ceff0d8be8fac016725ab08a9245f"
+  integrity sha512-vt+voKQrbj84bwQXPbMDqYmuz0hisCRty6Dhv+/pL4CIRYyvryZYTXBNuwrJqi1V344YjrxlWTjS0QqZgev3Cw==
 
 "@aws-cdk/service-spec-types@^0.0.164":
   version "0.0.164"
@@ -2197,9 +2197,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.249:
-  version "1.5.260"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.260.tgz#73f555d3e9b9fd16ff48fc406bbad84efa9b86c7"
-  integrity sha512-ov8rBoOBhVawpzdre+Cmz4FB+y66Eqrk6Gwqd8NGxuhv99GQ8XqMAr351KEkOt7gukXWDg6gJWEMKgL2RLMPtA==
+  version "1.5.262"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.262.tgz#c31eed591c6628908451c9ca0f0758ed514aa003"
+  integrity sha512-NlAsMteRHek05jRUxUR0a5jpjYq9ykk6+kO0yRaMi5moe7u0fVIOeQ3Y30A8dIiWFBNUoQGi1ljb1i5VtS9WQQ==
 
 emittery@^0.13.1:
   version "0.13.1"
