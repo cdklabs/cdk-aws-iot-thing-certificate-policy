@@ -36,9 +36,9 @@
     fsevents "2.3.2"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.234.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.234.0-alpha.0.tgz#145cec6d9bd817372b10a88cee647bec3adc406d"
-  integrity sha512-zm/omhGcWqEW9dI0Tx6cyIyXtAaPijot8Dpgy8CQc5zh16bm42yOLfaTnEY21us3jpB/oJDSEK/0H9yMEpQpug==
+  version "2.234.1-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.234.1-alpha.0.tgz#52174caa61a8a692cbd9d167f847daa5bb9e29a1"
+  integrity sha512-XkUIcqtB/eiEvXzDGbIdHtaRx1BAnHw9LRBD6spC6eQ189QUekwlDFo6M03bsQsuEwviV6sQ7st48iHxLIHwSg==
 
 "@aws-cdk/service-spec-types@^0.0.198":
   version "0.0.198"
@@ -1455,9 +1455,9 @@ balanced-match@^1.0.0:
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
 baseline-browser-mapping@^2.9.0:
-  version "2.9.13"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.9.13.tgz#e1d39147f6a7492438131476026e705d816b10cb"
-  integrity sha512-WhtvB2NG2wjr04+h77sg3klAIwrgOqnjS49GGudnUPGFFgg7G17y7Qecqp+2Dr5kUDxNRBca0SK7cG8JwzkWDQ==
+  version "2.9.14"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.9.14.tgz#3b6af0bc032445bca04de58caa9a87cfe921cbb3"
+  integrity sha512-B0xUquLkiGLgHhpPBqvl7GWegWBUNuujQ6kXd/r1U38ElPT6Ok8KZ8e+FpUGEc2ZoRQUzq/aUnaKFc/svWUGSg==
 
 brace-expansion@^1.1.7:
   version "1.1.12"
