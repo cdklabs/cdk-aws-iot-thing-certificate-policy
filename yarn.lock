@@ -889,9 +889,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*":
-  version "25.3.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.3.4.tgz#ae1caf36ba1778752bed6ebc4f7f3fa6b570bb50"
-  integrity sha512-NB1qVMIPsjfYtrY+9cCTj2VqLBh/TIDmsZXtmM2Xsn+W2yMlkA9Q1Okpr9W3f1fyGgvelw8ojumDsv8Vc0xufQ==
+  version "25.3.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.3.5.tgz#beccb5915561f7a9970ace547ad44d6cdbf39b46"
+  integrity sha512-oX8xrhvpiyRCQkG1MFchB09f+cXftgIXb3a7UUa4Y3wpmZPw5tyZGTLWhlESOLq1Rq6oDlc8npVU2/9xiCuXMA==
   dependencies:
     undici-types "~7.18.0"
 
@@ -1541,9 +1541,9 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001759:
-  version "1.0.30001776"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001776.tgz#3c64d006348a2e92037aa4302345129806a42d24"
-  integrity sha512-sg01JDPzZ9jGshqKSckOQthXnYwOEP50jeVFhaSFbZcOy05TiuuaffDOfcwtCisJ9kNQuLBFibYywv2Bgm9osw==
+  version "1.0.30001777"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001777.tgz#028f21e4b2718d138b55e692583e6810ccf60691"
+  integrity sha512-tmN+fJxroPndC74efCdp12j+0rk0RHwV5Jwa1zWaFVyw2ZxAuPeG8ZgWC3Wz7uSjT3qMRQ5XHZ4COgQmsCMJAQ==
 
 case@1.6.3, case@^1.6.3:
   version "1.6.3"
@@ -3764,10 +3764,10 @@ jsii-reflect@^1.127.0:
     oo-ascii-tree "^1.127.0"
     yargs "^17.7.2"
 
-jsii-rosetta@^5.9.33:
-  version "5.9.33"
-  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.33.tgz#953448feae5f06ebc41f9a03a511fdc19622abaf"
-  integrity sha512-xcPWelGKttHvTLKsOLWZ/FBomdgb+BNOTAcmaEiW3XJ98bJk/ID5SO9Zhn/WmcbBXHd242acbhYAI3O+XdPi2w==
+jsii-rosetta@^5.9.34:
+  version "5.9.34"
+  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.34.tgz#f77ebb9d84dde8b25fb9dbd4ebfbf8f610999bf5"
+  integrity sha512-enlh+DitCe8IsjuhUBMhVfeW4PrRYQJKgfWAm1vkEmJbi39+ZWOj9RGXok9snhkY3ivf28uj9zkS3tKntI6GfA==
   dependencies:
     "@jsii/check-node" "^1.127.0"
     "@jsii/spec" "^1.127.0"
