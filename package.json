@@ -80,7 +80,7 @@
     "constructs": "^10.0.5"
   },
   "dependencies": {
-    "handlebars": "^4.7.8"
+    "handlebars": "^4.7.9"
   },
   "bundledDependencies": [
     "handlebars"
