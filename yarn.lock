@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.202":
-  version "2.2.276"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.276.tgz#b0600e95e2ae1366c24f32d36d196b0eb84c3bf1"
-  integrity sha512-ag+rGoWtjnhLHOVmSGOfocN8ay1rcC7tvhEJy5bzS4hPo3j+LMn0E4iBSlt5BB4aF81cpbC/7LnjhohWzoLMNA==
+  version "2.2.277"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.277.tgz#c59c4a104ed0c15ec265dd5881803e5bfeb3a370"
+  integrity sha512-D9ADJtGPdHZEgqrsDji2jQXxpYTgd3qFjMTv6/SiqoEbSz8L0dqjpF9O0QdWv6h/5innD8GX9A2A+p53NBfvtQ==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.2":
   version "2.1.4"
@@ -1575,10 +1575,10 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk-nag@^2.38.1:
-  version "2.38.1"
-  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.38.1.tgz#50cf4311721a6bc43eb433d723ca8d03f7e8be20"
-  integrity sha512-pvGnSFyml4t6uw8RTp3pIz0iOQkgt6ewxoGdArZugNxqmn2XK9erXNvSrPhJC4BpkOXXkYYzgMSc7b6mbDHUOg==
+cdk-nag@^2.38.2:
+  version "2.38.2"
+  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.38.2.tgz#49e23b36d9d999af793ffcffe6b4f8e84d6d462c"
+  integrity sha512-Ddim1r8IwAPQn95KB2owbHoU4YHveHg4PfM+k7TdcANqfVmoHem6cTFMpcIuoDM16BkQQ+xshxYxZgcAoeVKGw==
 
 cdklabs-projen-project-types@^0.1.208:
   version "0.1.208"
@@ -3793,10 +3793,10 @@ jsii-reflect@^1.128.0:
     oo-ascii-tree "^1.128.0"
     yargs "^17.7.2"
 
-jsii-rosetta@^5.9.42:
-  version "5.9.42"
-  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.42.tgz#2b8f4944ec6ffdbac507ccdb359724699d9bb6c1"
-  integrity sha512-KePi4kELKbOks7Yye/zL4N1s5UiytS3fmZMh1QZQEq4g70uvV0C7+lgmdLyuNfHCWK0a6fgqCflZfpt03Mdt9g==
+jsii-rosetta@^5.9.43:
+  version "5.9.43"
+  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.43.tgz#e8da1a02321dc0bc3693cb09b33157248ab524a1"
+  integrity sha512-9r8lvh7ily8tLVMcSKMMX3qx89WKRrjci2Z6e0ayuK+Uyzy9/x6vFrUzasYhGxRt9svkRVP7gpUqGK7qQbLREA==
   dependencies:
     "@jsii/check-node" "^1.128.0"
     "@jsii/spec" "^1.128.0"
