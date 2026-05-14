@@ -34,9 +34,9 @@
     aws-cdk "2.1121.0"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.253.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.253.1-alpha.0.tgz#15e6e365ca367535a6ef0d5137ee4df27acb5c80"
-  integrity sha512-deM8DL62HLnfECoKaQrSFADSIxn5VXAxoDYfZ+EPsN9lcWuZ3U0nOdXJiWMDXf5Cnw+SpsFg0MZQhttEFL71AQ==
+  version "2.254.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.254.0-alpha.0.tgz#231e30d4445c179aad84deae93774efd9597de5d"
+  integrity sha512-JmoDNTcZTztK9YZEokEn0LTISkvHDCN/S7A41Y8zp4D558VHCm7Ib6SllgD7mLKJQ27kqFTZv91QyVHmKCSDgQ==
 
 "@aws-cdk/service-spec-types@^0.0.243":
   version "0.0.243"
