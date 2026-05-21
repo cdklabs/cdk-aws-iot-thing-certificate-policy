@@ -26,17 +26,17 @@
     "@cdklabs/tskb" "^0.0.4"
 
 "@aws-cdk/integ-runner@latest":
-  version "2.197.22"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.197.22.tgz#361f407ac66bc8edac9817422384da7d5fc08934"
-  integrity sha512-AT3vAyNeMrQtnqsxdSitICIPwlEb4VSlJsq68g3HRNErH7RixiVIkREUI07AqD1xGfO80Tq2JMQjg1CVC86Gww==
+  version "2.197.24"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.197.24.tgz#407ff56788803c5335b4a1407dfd99e291678cdb"
+  integrity sha512-xEdoyZXyEa/u24Hr9fR0GMDQ28VRbusErSGKMGSMBxde9/5LbvI+w+hIOvspNvbTyNEouyfXKsyehOg5jq638g==
   dependencies:
     "@aws-cdk/aws-service-spec" "0.1.180"
-    aws-cdk "2.1123.0"
+    aws-cdk "2.1124.1"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.255.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.255.0-alpha.0.tgz#7623b5aa11a8539856202f0380b290731a7cacd6"
-  integrity sha512-lTUHNRuf9p74ol8/yJF35oIgo5hjY50aip4XHc0FKfXPsZyI16kEZEEIW61mYKGYqFhFJrP4O+Y2HzeAVQlBBw==
+  version "2.256.1-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.256.1-alpha.0.tgz#3445499b96b09fd28d03e3838ea8af89ad9732f0"
+  integrity sha512-xpfyv9AX7zhUWVdDNH27hhmZgRxuAW5wj+zFSIFCJ3BPDSgIQnKsZ8XSXYOMrhPG2MMLyr075wPz0ZmpGivwVQ==
 
 "@aws-cdk/service-spec-types@^0.0.246":
   version "0.0.246"
@@ -1381,10 +1381,10 @@ aws-cdk-lib@2.138.0:
     table "^6.8.2"
     yaml "1.10.2"
 
-aws-cdk@2.1123.0:
-  version "2.1123.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1123.0.tgz#6ff5df00317cc1429cff42149b97990ba042f19a"
-  integrity sha512-s4kN0Dk75TMAqnITGuWk39hzGeHAUhCcYx4Yf2eWT1QSMsOnHs4seOmeL8eXpk8oSp19NJOyF4m6XBP6fux+7A==
+aws-cdk@2.1124.1:
+  version "2.1124.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1124.1.tgz#a74aad6e0810bbcaa4beba1d96c00525d81dea47"
+  integrity sha512-sRYdPMdkX+02EHaT946AFV0w0CMfbHKWpLZPv525xTCkaVu1eYu6DzHFuTdimxdSN0uGQ2D4LHrD1sr94tRhow==
 
 awslint@^2.72.1:
   version "2.72.1"
