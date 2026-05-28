@@ -17,31 +17,31 @@
   resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v6/-/asset-node-proxy-agent-v6-2.1.2.tgz#71733894b092032309523cfcba24dc2bb3e7fd84"
   integrity sha512-pDiuqH+qY3zM9lhhLjbKJ1tnKOHzQ2V4Wr/3qsxyKeKAkuPMI/BVGvZG1PbrikUw949cGVTfVEt4ETKKYnrj0Q==
 
-"@aws-cdk/aws-service-spec@0.1.180":
-  version "0.1.180"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-service-spec/-/aws-service-spec-0.1.180.tgz#bcd297aa604de708919930a7a76b584adb672d94"
-  integrity sha512-Vt3dDKaPnPHWPHF2NKhm81BINarQR2u6zaumhqOBs2Ci3KfTr6jjnOCUJ8pk1a4QQp1M1pU+kpX6yGS9/AsQUw==
+"@aws-cdk/aws-service-spec@0.1.181":
+  version "0.1.181"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-service-spec/-/aws-service-spec-0.1.181.tgz#dd55d10ccc46bc3886bb1d7d86a2302f039ac1dc"
+  integrity sha512-Yc6t7R67GIp0o5s8jjjr5w5Op3iwHtkylivl2T9vWcvwPEakG6Q+YT/qr+ggONzBX81VHM/nOV+4xaodPrV1vQ==
   dependencies:
-    "@aws-cdk/service-spec-types" "^0.0.246"
+    "@aws-cdk/service-spec-types" "^0.0.247"
     "@cdklabs/tskb" "^0.0.4"
 
 "@aws-cdk/integ-runner@latest":
-  version "2.197.24"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.197.24.tgz#407ff56788803c5335b4a1407dfd99e291678cdb"
-  integrity sha512-xEdoyZXyEa/u24Hr9fR0GMDQ28VRbusErSGKMGSMBxde9/5LbvI+w+hIOvspNvbTyNEouyfXKsyehOg5jq638g==
+  version "2.198.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.198.0.tgz#6dab7e5736a1f2271577d93a9de36e5de8ad43ee"
+  integrity sha512-eyNOL4wzaicIjd3jLU9m/3vt2zF5HninwY0SZZG3ACt/WE7SBavvC0GKOR9PJBLHHmYg9sQPHaCMJvBZtuqX9Q==
   dependencies:
-    "@aws-cdk/aws-service-spec" "0.1.180"
-    aws-cdk "2.1124.1"
+    "@aws-cdk/aws-service-spec" "0.1.181"
+    aws-cdk "2.1125.0"
 
 "@aws-cdk/integ-tests-alpha@latest":
   version "2.257.0-alpha.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.257.0-alpha.0.tgz#1e4c0378786670a74d3cf5c75f960b96ba4970a5"
   integrity sha512-8bUIIK/yGi2C6hq0cpQJJDT6WTbIZtAj9o1pp17H6yk3bBxFi2W19qKat4nH7e7O0tVoq/lxKUQ/GwiVsQ5Zkw==
 
-"@aws-cdk/service-spec-types@^0.0.246":
-  version "0.0.246"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/service-spec-types/-/service-spec-types-0.0.246.tgz#6d0ea245dbd05cfe01f47d6d46dfd2fb393eb594"
-  integrity sha512-xFjzqnFo5gZv0cXXhOLhm0O3z9/dAcL2vnmVYtcQjEyeVDzD59JsEEICshEsdmhgxml1CcjkKNRjDHw9ex5IEQ==
+"@aws-cdk/service-spec-types@^0.0.247":
+  version "0.0.247"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/service-spec-types/-/service-spec-types-0.0.247.tgz#3a0cdb430fb32b0cb8bcc8ec1dcfe829c329e6b2"
+  integrity sha512-1/I6ocANK1rOYJqTSxLw8zO7XRF2WJTzhoQhERLg9XAlUoFFjSUkNRR37myzvBjDcp2pLVLWNW3hGqLheLVEbQ==
   dependencies:
     "@cdklabs/tskb" "^0.0.4"
 
@@ -1381,10 +1381,10 @@ aws-cdk-lib@2.138.0:
     table "^6.8.2"
     yaml "1.10.2"
 
-aws-cdk@2.1124.1:
-  version "2.1124.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1124.1.tgz#a74aad6e0810bbcaa4beba1d96c00525d81dea47"
-  integrity sha512-sRYdPMdkX+02EHaT946AFV0w0CMfbHKWpLZPv525xTCkaVu1eYu6DzHFuTdimxdSN0uGQ2D4LHrD1sr94tRhow==
+aws-cdk@2.1125.0:
+  version "2.1125.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1125.0.tgz#78760747560f38beb2cb6eb4599ae44a90c32e8b"
+  integrity sha512-QAvsE2XQMcyNOjMMqAS7eDADR9t6vcFcMQvhOmtLfDqgfJXSyTkHvzM5zgwZCdJ4FNqWr5Y/zXvL1Cv5ECKXwQ==
 
 awslint@^2.72.1:
   version "2.72.1"
@@ -2133,9 +2133,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.328:
-  version "1.5.362"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.362.tgz#0696661e1e8ea46248e82f62f0a0bfe1aac2ce76"
-  integrity sha512-PUY2DrLvkjkUuWqq+KPL2iWshrJsZOcIojzRQ7eXFacc9dWga7MGMJAa15VbiejSZB1PAXaRLAiKgruHP8LB1w==
+  version "1.5.363"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.363.tgz#6e9ee6bbb98d4aa12e96853e89993990d577eec8"
+  integrity sha512-VjUKPyWzGnT1fujlkEGC/BvN70Hh70KXtAqcmniXviYlJC/ivcT+BWGPyxWVbJZLfvtKR6dqg1L7T7pgAMBtWA==
 
 emittery@^0.13.1:
   version "0.13.1"
