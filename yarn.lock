@@ -34,9 +34,9 @@
     aws-cdk "2.1126.0"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.257.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.257.0-alpha.0.tgz#1e4c0378786670a74d3cf5c75f960b96ba4970a5"
-  integrity sha512-8bUIIK/yGi2C6hq0cpQJJDT6WTbIZtAj9o1pp17H6yk3bBxFi2W19qKat4nH7e7O0tVoq/lxKUQ/GwiVsQ5Zkw==
+  version "2.258.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.258.0-alpha.0.tgz#f0283f7106e4a281c3476ebef10867642b7437ce"
+  integrity sha512-iqdffEPpO3YZ9hLt/atPAFyfpyNnSpVqKkq+9iYeBdTiyWHpH1rZinBKfbV6BeyFKskyHW8X5EBX+2ZQKisj7w==
 
 "@aws-cdk/service-spec-types@^0.0.250":
   version "0.0.250"
@@ -4870,9 +4870,9 @@ semver@^6.3.0, semver@^6.3.1:
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
 semver@^7.0.0, semver@^7.3.4, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.7.1, semver@^7.7.2, semver@^7.8.0, semver@^7.8.1:
-  version "7.8.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.1.tgz#bf4970b5e70fda0686363cc18bfe8805d5ed957e"
-  integrity sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==
+  version "7.8.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.2.tgz#194bd65723a28cf82542d2bf176b91c26b343be1"
+  integrity sha512-c8jsqUZm3omBOI66G90z1Dyw5z622G8oLG+omfsHBJf3CWQTlOcwOjvOG6wtiNfW6anKm/eA39LMwMtMez2TiQ==
 
 semver@^7.6.3:
   version "7.7.2"
