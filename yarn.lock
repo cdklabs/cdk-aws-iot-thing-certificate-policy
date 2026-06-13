@@ -34,9 +34,9 @@
     aws-cdk "2.1126.0"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.258.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.258.1-alpha.0.tgz#e7acf94a616c69d8f56e06b5e725b36cc6f1544e"
-  integrity sha512-VACWJH9GuXM72dylTC3g61kgtEFpBtCHgs+Q6DxyaP2vpNguyCs5xFUHWppGCN2XNzYo3K5y7dKFuFZJl61gFg==
+  version "2.259.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.259.0-alpha.0.tgz#1f77900e255a1b4dee2717ea12f53d7afd3f1336"
+  integrity sha512-zyz0diC1fH3j5N4iCU7mPFJoF0UoecHfLESTp0PG/6O9C1YkH9RdLV4GQgh2wFxhNHXFbRdNaRIpK0G8DaEKdg==
 
 "@aws-cdk/service-spec-types@^0.0.250":
   version "0.0.250"
@@ -712,9 +712,9 @@
     "@tybys/wasm-util" "^0.10.2"
 
 "@nodable/entities@^2.1.0":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@nodable/entities/-/entities-2.1.1.tgz#ce41931e9b72606d7f0598d665e46e889285d78a"
-  integrity sha512-Pig3HxDIoMgjdEH8OCf/dkcTmLFjJRjWuq8jSnklu284/TKOPibSRERmOykiwmyXTtv61mP+44f3GMx0tLAyjg==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@nodable/entities/-/entities-2.2.0.tgz#a1d45a992b022591b1c2b03a77935c939375b642"
+  integrity sha512-9uGyhaQavEUMC8AIddIjau4NsnsXhou+j5sBAGojCM1oxmQpVKTWR/9JxABD6UAv12vpIms55fPZKFQEhG6uBg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1472,9 +1472,9 @@ balanced-match@^1.0.0:
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
 baseline-browser-mapping@^2.10.12:
-  version "2.10.36"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.10.36.tgz#ff3c7c87095c70075b1ac787160fd4fc98750a74"
-  integrity sha512-lVq/Df7LXlO79MVaaUHztSwWiG9oXoWHlgvNS51v8Dpd4+G4/VIy6qYePTw31nAVls33nUtnfezYeLkYAak9dg==
+  version "2.10.37"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.10.37.tgz#3e636475b6b293244e2b23e2c71a2ab9d9e6ba7d"
+  integrity sha512-girxaJ7WZssDOFhzCGZTDKoTa1gk6A1TbflaYTpykLJ4UU9Fz9kx1aREM8JCuoVHbL8X8T/mJg7w2oYSq72Oig==
 
 brace-expansion@^1.1.7:
   version "1.1.15"
@@ -2138,9 +2138,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.328:
-  version "1.5.371"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.371.tgz#fa5684f2a514c57368823f9e75553f9a7c5ef0be"
-  integrity sha512-e9htk9mAYL6AzmkEhSvVVw7IWGSBJ/Bqdn2eRyRLrj1g6sncN4WbFt5qnILYoCktktr45pyjIrOiRvBThQ808w==
+  version "1.5.372"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.372.tgz#ae8ac69942a37b231773b8fb01759f73733599e3"
+  integrity sha512-M3yhbAlilnwqC8D21t28UCDGHyitShTmmLRU/H+b74P6Ski16Nb9HONYEaVpMj/pwC7BEo5B95FpjODLCWbtfA==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -3777,9 +3777,9 @@ jsii-diff@^1.135.0:
     yargs "^17.7.2"
 
 jsii-docgen@^10.5.0:
-  version "10.11.24"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.11.24.tgz#509a3f2fca563db50ddea15c15b3c80b1214f806"
-  integrity sha512-Vqv0dCKVEjfEDUQxgbeE57GzHbfWBzAW8cts/CFMe0b661f/KSoDGGpjBvFxPamQQe9lY5JSgBd9r1O1DzkG9g==
+  version "10.12.0"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.12.0.tgz#92185793c6bd12a96b6b72f968e7bbead32f9605"
+  integrity sha512-uC7MsOl+1Gg2mvc3FuRnBaYNr8dLCQRqGXCij7WOzN9tfLGf/qqzXJvQKSmsvYCLXrYeJsCkSeN24RTpYFZiew==
   dependencies:
     "@jsii/spec" "^1.134.0"
     case "^1.6.3"
