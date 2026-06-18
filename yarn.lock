@@ -26,12 +26,12 @@
     "@cdklabs/tskb" "^0.0.4"
 
 "@aws-cdk/integ-runner@latest":
-  version "2.200.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.200.0.tgz#3f706ac0170dc3ed4fcb71cf66c0a9a953f82331"
-  integrity sha512-1F7pyJmgkTCmEVmyGX9L26ZCluFv3DbMZ2VudIxrdcveAFa6xGiTN6CkSKejbPDw6qDv/a9kv5iTEB7bEw1wZg==
+  version "2.200.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.200.1.tgz#71384bb578e43f2529d3d02dec68732f49389f6b"
+  integrity sha512-BA3re173bCnyEEHR7dJaZ5ksJ5ZDZc+Kw6KweGZTJAafLdnWHOh1Za96wHYaKHLEVKSgwa0YXm4iHmXWsn0v5A==
   dependencies:
     "@aws-cdk/aws-service-spec" "0.1.185"
-    aws-cdk "2.1127.0"
+    aws-cdk "2.1128.0"
 
 "@aws-cdk/integ-tests-alpha@latest":
   version "2.260.0-alpha.0"
@@ -1386,10 +1386,10 @@ aws-cdk-lib@2.138.0:
     table "^6.8.2"
     yaml "1.10.2"
 
-aws-cdk@2.1127.0:
-  version "2.1127.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1127.0.tgz#7d3ba08ee2f69b8462165a86505e1c326832cd8b"
-  integrity sha512-/6pUD6+cp3ObwItYEHXF+O+cUCtsKmCoeerCXA/xAfELAAJbdlu36Zx+LJZGbF32aO4xdk3zlH3F7rY657js3g==
+aws-cdk@2.1128.0:
+  version "2.1128.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1128.0.tgz#a8adf71c412dfde62f435ec0e78a3c4616ece60d"
+  integrity sha512-CXPl6Yu0gDqrS2GYDPoMCQbdJFS0tupzN8nuaTku3fewTdQJhHGK/2QpwMV/mVgsTTHB9riXT3Zt/k4trh8tCw==
 
 awslint@^2.72.1:
   version "2.72.1"
@@ -1472,9 +1472,9 @@ balanced-match@^1.0.0:
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
 baseline-browser-mapping@^2.10.12:
-  version "2.10.37"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.10.37.tgz#3e636475b6b293244e2b23e2c71a2ab9d9e6ba7d"
-  integrity sha512-girxaJ7WZssDOFhzCGZTDKoTa1gk6A1TbflaYTpykLJ4UU9Fz9kx1aREM8JCuoVHbL8X8T/mJg7w2oYSq72Oig==
+  version "2.10.38"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.10.38.tgz#c84d093c4bf7325c5053c279d90f153c66526042"
+  integrity sha512-31/02mVB4yuQU6adKk5SlY6m+mxDwUq5KZkyYgnLrrKl7TEm1+3PyDtDBz2kOv/wxZz41GHsvV1A/u6RmiyBvw==
 
 brace-expansion@^1.1.7:
   version "1.1.15"
@@ -2542,9 +2542,9 @@ fast-xml-builder@^1.2.0:
     xml-naming "^0.1.0"
 
 fast-xml-parser@^5.5.6:
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.9.0.tgz#25d54dbb841ad630e8810b343a6ce76d6044c04d"
-  integrity sha512-duBuXbyIhEeNO4GjFuVqr0nF047oNwr18aum+zJyqo0MUG/n7Afgs3Qv3D6VN3ONedUKxiuFlPiMGIa0Z11chA==
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.9.2.tgz#89202abc4e823b43840dfe3e568aef6ec275b4b9"
+  integrity sha512-DYPkXnVSJHAGAkSBeVYhEo/seIpz2SLr9OQcX7m6lXaX3gvoB+DCKzFdZIEhZGI3I1DUhObBAUOT/v2xfoXz/w==
   dependencies:
     "@nodable/entities" "^2.2.0"
     fast-xml-builder "^1.2.0"
