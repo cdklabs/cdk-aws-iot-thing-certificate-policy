@@ -17,30 +17,30 @@
   resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v6/-/asset-node-proxy-agent-v6-2.1.2.tgz#71733894b092032309523cfcba24dc2bb3e7fd84"
   integrity sha512-pDiuqH+qY3zM9lhhLjbKJ1tnKOHzQ2V4Wr/3qsxyKeKAkuPMI/BVGvZG1PbrikUw949cGVTfVEt4ETKKYnrj0Q==
 
-"@aws-cdk/aws-service-spec@0.1.185":
-  version "0.1.185"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-service-spec/-/aws-service-spec-0.1.185.tgz#a4caa82744cde717a6a761b2a18d36a3d7a7e748"
-  integrity sha512-J1rf6m8AavVV1iFKY6s0ljTstUS94yaLYdNHCa0QwRCM5DDxK+kGaqHmj/1rBWkGsIJ15IHVLsMPQ/Q6fAvLTA==
+"@aws-cdk/aws-service-spec@0.1.190":
+  version "0.1.190"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-service-spec/-/aws-service-spec-0.1.190.tgz#e45e691ffd75be12692dbf346286cce4e400a888"
+  integrity sha512-x1UIQSZn5M5UEgzVTQEjRRc4SR2/dkL3FR/+Crg18+moTjwAf2Rlk/d8cySweb4a2e5ACteIwbGTngKxU2xPSg==
   dependencies:
-    "@aws-cdk/service-spec-types" "^0.0.251"
+    "@aws-cdk/service-spec-types" "^0.0.256"
     "@cdklabs/tskb" "^0.0.4"
 
 "@aws-cdk/integ-runner@latest":
-  version "2.202.1"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.202.1.tgz#1844dd34fe005368764ca8029e763f4f533fc143"
-  integrity sha512-EZonKL98ziLXKDSb1JHS+kuTvfERjvJ+hykDSHHg325REE5z5YclNPnpQsNayjjNmd3zZdVeMhs8X1aIarfP8w==
+  version "2.202.2"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.202.2.tgz#fd31ed4db61a7f75ac582ad9f44e0bae564259a5"
+  integrity sha512-S5kaAAN02E5zxTRRQP8iEon1e/SxUs9AD3H8f89oBMmwmkkMNma8D2aQAdjrF5jCN3FH3agjY9ofHambPDR4gA==
   dependencies:
-    "@aws-cdk/aws-service-spec" "0.1.185"
+    "@aws-cdk/aws-service-spec" "0.1.190"
 
 "@aws-cdk/integ-tests-alpha@latest":
   version "2.261.0-alpha.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.261.0-alpha.0.tgz#e826edad0361b70beec6007f07842386d935f928"
   integrity sha512-MbhtBqHNJ67VGH9CKz/DpOSRBaclgBnTskhsnFfVjac3abaiCIGmfz0MhfQGoUC1M+xQ/imm5PQ0B/TLPX3UGw==
 
-"@aws-cdk/service-spec-types@^0.0.251":
-  version "0.0.251"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/service-spec-types/-/service-spec-types-0.0.251.tgz#3eb9d83d66c1bd71f0cab2464f14f0ad30a15505"
-  integrity sha512-193kY3ki/wNZJVMY2plwmQzOiTOtePeEfudAj8bw7/UAFtHUAS9qTLY2YLr+4JIHqkoV12GkshPgsLRFySclFg==
+"@aws-cdk/service-spec-types@^0.0.256":
+  version "0.0.256"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/service-spec-types/-/service-spec-types-0.0.256.tgz#c787460597647332ab5c50647ab420f213130cb9"
+  integrity sha512-oZz7qWObPzAhnOOxr0fMkM55AT9U9YhUr/PiAnBFjGEuONJnXamjuTaHvsjLfvCVTOiQY3HWSvR+Qo0+Ad3xzw==
   dependencies:
     "@cdklabs/tskb" "^0.0.4"
 
@@ -1021,9 +1021,9 @@
     eslint-visitor-keys "^3.4.3"
 
 "@ungap/structured-clone@^1.2.0":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.3.2.tgz#a03ad82cd5676414d068ba86f880c5681194aadf"
-  integrity sha512-5jsZFwgR5rTdKwidH9Qmat75RKwqfpKlWWB1frDkljN127mwqBu8K0PYo7/hFpF03IEJpfVPpCQDY/eDx3iHvA==
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.3.3.tgz#094041e1a4cb1987f038335421281ac8be390bcc"
+  integrity sha512-60YRaenCQcVjYEKOcG824+DRGGIQ3VKErcBoAEDJZz5bKIs2ZG+X/H9Nk+Q6EVkwJk5QNApxbrc5QtBSwtrXAg==
 
 "@unrs/resolver-binding-android-arm-eabi@1.12.2":
   version "1.12.2"
