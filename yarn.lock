@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.202":
-  version "2.2.287"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.287.tgz#d496655e50acf4793ce2963232f7cac129257ddd"
-  integrity sha512-9jnFYG4O2iG+XlaMFMk4XvHiLCuQJJ09r4ZKLE4azv7Eu1mx6Y/WhLtJd2KwXPZf0zacD9IU2zpPVeBiri8Qfg==
+  version "2.2.289"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.289.tgz#385ccdc100f1879a7ffc456de7613b571c8a7367"
+  integrity sha512-X0fy/eKo6t7XI+AYZZWuEI3/f+050/fAtG2A6ckMc+AgAiYdK8cCc90lDc0/FYsvmJSh5WjwDVKTP2wyeLoL+A==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.2":
   version "2.1.4"
@@ -26,9 +26,9 @@
     "@cdklabs/tskb" "^0.0.4"
 
 "@aws-cdk/integ-runner@latest":
-  version "2.202.2"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.202.2.tgz#fd31ed4db61a7f75ac582ad9f44e0bae564259a5"
-  integrity sha512-S5kaAAN02E5zxTRRQP8iEon1e/SxUs9AD3H8f89oBMmwmkkMNma8D2aQAdjrF5jCN3FH3agjY9ofHambPDR4gA==
+  version "2.202.3"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.202.3.tgz#9f1b243b9f194b8766b39bce8737861d2857c2e4"
+  integrity sha512-ONJDtPgK3YkrkGGlEvoRsZLBIBp/zspHi7Ul98chGB2enqXkpNDV3Tz9UqfSjUmLGkRq6CP2XMcuI64QB5nadg==
   dependencies:
     "@aws-cdk/aws-service-spec" "0.1.190"
 
@@ -3845,10 +3845,10 @@ jsii-reflect@^1.138.0:
     oo-ascii-tree "^1.138.0"
     yargs "^17.7.3"
 
-jsii-rosetta@^5.9.55:
-  version "5.9.55"
-  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.55.tgz#d21bea6031bb545f037e7fe392206cf26037d60f"
-  integrity sha512-R//VaQvn2QEnJsFuc6Kf6GeuHrnTd7CnqKcPfV7CB2vgp5Gk4Mfh4jJaiicwOqGJ0P+31QNpKNxDafFaEsCk5Q==
+jsii-rosetta@^5.9.56:
+  version "5.9.56"
+  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.56.tgz#9d2338d0e9a8dd86acc2b44b2addfb16755abc3a"
+  integrity sha512-RQpDUHE9CZJly33LlAphYH9yJh3PTcWide+bHfdJSIjeAPT9CK2f1AEQxGG5yK4YIsvD27+DDXefxjoOk+40qA==
   dependencies:
     "@jsii/check-node" "^1.138.0"
     "@jsii/spec" "^1.138.0"
