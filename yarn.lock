@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.202":
-  version "2.2.292"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.292.tgz#caa029bbe15199606f39877c68bf5880b1f59869"
-  integrity sha512-d4aMFsAFj19FtxVyw8IzlUKv5Zu4sIvgnEjI2IU6IWBJgVbJ4aFnadANqYa+6MwB1CQbGOg0jh8WE77M+Nb/9A==
+  version "2.2.293"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.293.tgz#78ba4d704c4df2a73a383d9998a2d09737c42933"
+  integrity sha512-8DQ4lO+cfYw2qwVuzALLj8otNfLcj9eoW9wVABf787BiNrJLbILpiKwHhvEsmlWHWAyJbB8Av60Tca993jQXjw==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.2":
   version "2.1.4"
@@ -33,9 +33,9 @@
     "@aws-cdk/aws-service-spec" "0.1.199"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.263.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.263.0-alpha.0.tgz#ca62cb62a362ce81ecd8554e63c4efd877b81ec8"
-  integrity sha512-Ya/J/E4v5sdgMwNTfnZ28roLefrE3xgxZ702kXM9ARV2406Loa3z9Lp7g8ypC8bRp09NEUbFAVDDLG4ZY2J97A==
+  version "2.264.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.264.0-alpha.0.tgz#8c6de8075531c5118382829b8f12484aa8a6cf90"
+  integrity sha512-6ZUW51X38zaoHP9+RORpLa4+Pbnd0MLtXLXHgCOt7LzssImbUwMRUBlwWHAt8sE96tXj++3FSY7Gp0HBcuTYFQ==
 
 "@aws-cdk/service-spec-types@^0.0.265":
   version "0.0.265"
@@ -3832,10 +3832,10 @@ jsii-reflect@^1.139.0:
     oo-ascii-tree "^1.139.0"
     yargs "^17.7.3"
 
-jsii-rosetta@^5.9.60:
-  version "5.9.60"
-  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.60.tgz#19e914f271be4e7fc6b931024e4a2cc7257420f4"
-  integrity sha512-v3TxPClWFW/FK73mgr8hvPHLSGKVmtbjNDvxD/bzSsy9/6nvVVgLqeHDHpw/gtFAujBqTDp8n4q0fVbv4knykQ==
+jsii-rosetta@^5.9.61:
+  version "5.9.61"
+  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.61.tgz#93c34497617910055116d673eee1a16dd104027d"
+  integrity sha512-B9VS+zTEhYH3cS3kRrWajGaqfiT9wGIGlNM2ivSZoss2ggJGnI03S924jsalvtHeTf8t9n5+daHgr1PYkdUH4w==
   dependencies:
     "@jsii/check-node" "^1.139.0"
     "@jsii/spec" "^1.139.0"
@@ -3852,9 +3852,9 @@ jsii-rosetta@^5.9.60:
     yargs "^17.7.3"
 
 jsii@^5.4.0, jsii@~5.9.1:
-  version "5.9.51"
-  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.9.51.tgz#b021dc022f69e21f2722749bc8b3282d3ee3788b"
-  integrity sha512-3YsHUi2f3knoR9CiZem3ViVNJ19iNmoZRs5DZ0Gldcq5mBJJJ4V93ycTDxq7Yomt/gSL2rhb1qsPy/zh1ksxPw==
+  version "5.9.52"
+  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.9.52.tgz#aeb329e0adfe96eb066067e16a97faa3afc48578"
+  integrity sha512-iOdM2f2iA6Wwr4cIapdBmmBMzE8lghZLIyvRsBT/dWBxgqWoOI0D4O/o2xJETOJ37bNdDv1dZZe9W20r+r7gjQ==
   dependencies:
     "@jsii/check-node" "1.139.0"
     "@jsii/spec" "1.139.0"
@@ -5555,9 +5555,9 @@ unrs-resolver@^1.6.2:
     "@unrs/resolver-binding-win32-x64-msvc" "1.12.2"
 
 update-browserslist-db@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.3.0.tgz#9ff2604d5b949051639c01a223a16619f8a2b2c7"
-  integrity sha512-x/M6q3w4Ybp91CNaS4S69UnliqR3BzRpOT6LWbksjth0S/+jhfaPJsWjt/TewpT8j9eLIojUf5jr29WextHroA==
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.3.1.tgz#a71c28dd22f505481dbc4689087b18d933e90afd"
+  integrity sha512-ZZ61DsRsOnakl74HAmp3oSN4aXUmEWXf+i/yv0h7tIBfICc3VdrFErQKUUKPgu3AMsTUMbcongALEN4l6GSUrQ==
   dependencies:
     escalade "^3.2.0"
     picocolors "^1.1.1"
