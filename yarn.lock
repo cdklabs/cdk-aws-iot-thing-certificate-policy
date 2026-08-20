@@ -17,30 +17,30 @@
   resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v6/-/asset-node-proxy-agent-v6-2.1.2.tgz#71733894b092032309523cfcba24dc2bb3e7fd84"
   integrity sha512-pDiuqH+qY3zM9lhhLjbKJ1tnKOHzQ2V4Wr/3qsxyKeKAkuPMI/BVGvZG1PbrikUw949cGVTfVEt4ETKKYnrj0Q==
 
-"@aws-cdk/aws-service-spec@0.1.200":
-  version "0.1.200"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-service-spec/-/aws-service-spec-0.1.200.tgz#c464d56a6f23f1c48ad51554835d5a2f950300e2"
-  integrity sha512-psQy+GBwfsK5ES+pCW45sN+eZFjF/4LDgvxPqTbf9NF/AWOcd0/by8vP7KmWfM7B7gwTwWgTsuYK3LCMYArRiQ==
+"@aws-cdk/aws-service-spec@0.1.203":
+  version "0.1.203"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-service-spec/-/aws-service-spec-0.1.203.tgz#0ef102aac235d678269abb431b745c7ceb22f79b"
+  integrity sha512-Y+oayknO488yV3NMb9uFHfxM04Ov6Ho7DJ7kG13+FdH5Cp9+TNWw1oAG2jKVY27WZPL0ho59dRy9tzUy6rHVnA==
   dependencies:
-    "@aws-cdk/service-spec-types" "^0.0.266"
+    "@aws-cdk/service-spec-types" "^0.0.269"
     "@cdklabs/tskb" "^0.0.4"
 
 "@aws-cdk/integ-runner@latest":
-  version "2.204.4"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.204.4.tgz#de15fc76ba0ceb34b7935eba1a2088e75bdfe090"
-  integrity sha512-zNA/go3FP3+T43qxYGHxYmKXrzWgueB33142S/73kyAVz0yMb4qyWx4Pzl09BAE86zslQGrnj7ujI2Vw8+EHwA==
+  version "2.204.5"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-runner/-/integ-runner-2.204.5.tgz#30fbaab55b8a5d13489afe998eb54890c6fa34e2"
+  integrity sha512-g2lNbrzEE1AAyN3pGpx3bQ2da27/zm1thLqZOOIMMdCVOwvFyE0RT3QfZ2ii8z+7D9IOFg7ghMagn8654Slr5g==
   dependencies:
-    "@aws-cdk/aws-service-spec" "0.1.200"
+    "@aws-cdk/aws-service-spec" "0.1.203"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.265.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.265.0-alpha.0.tgz#9e2214cdddf773ec1d4feca898c4807fafd975b9"
-  integrity sha512-BvrmjMF0Jktbx55A0OF/e1YmnRO5M0O27r7dvr/y4JCR3aEJXW31rgt7BBF0l26y0MJFUFqDmcdTKwTbLcGu3A==
+  version "2.266.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.266.0-alpha.0.tgz#dde702bb87d114df666299a5d3a4bf1f7ff3937b"
+  integrity sha512-hM/J7/zBVksMvlpp4Kzb9vgv+obI5RpzZ+5SfFEYbA0EjhI8DE8Br3FtXMP8l8EyA/VoGrS61RSpAQGTsHHvIQ==
 
-"@aws-cdk/service-spec-types@^0.0.266":
-  version "0.0.266"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/service-spec-types/-/service-spec-types-0.0.266.tgz#ed764743af29bbdc80f254a516c0a31d69bd7b7c"
-  integrity sha512-ku5kEootInIqeRmneEqdg9lGC5k0oS4xHxtGEr3jYEVkh46susXEj1MxcYD6X1rdPCqjnzzHJrhEbDYt5JZ0Rw==
+"@aws-cdk/service-spec-types@^0.0.269":
+  version "0.0.269"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/service-spec-types/-/service-spec-types-0.0.269.tgz#f3e3c1ffd42e3c976e78e7842a6e9e98fd5dc9e4"
+  integrity sha512-jlzH07p08SQvGQVMSTIfzl5a7buF8Lyfml2yU+3tSvipr1vcP96+6/eXPNWD9q31bSbOXZQX0PfTdnxTIYqoHw==
   dependencies:
     "@cdklabs/tskb" "^0.0.4"
 
@@ -2119,9 +2119,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.402:
-  version "1.5.410"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.410.tgz#0901bccd2b2865960d8decee1653ad734a1b41de"
-  integrity sha512-Vq9DD7F4PKCKVmOoG6i1CQSYoF7IUtwTPEQjMXuqNs2S22H8HsojO9myaB81QuvvIKZaF6imSn3XAV1Su6rvXA==
+  version "1.5.411"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.411.tgz#d56c7e43f91e2b3abb53b4eecd646e20d0b18b34"
+  integrity sha512-gglkxzokjHfawpGxq75XdBV2/l3BAPzrsMs70qgaZdTW5rpV1tC4MdgJVP9fN126bODA4ZJQkn1wryEzJyQXIg==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -3271,9 +3271,9 @@ is-typed-array@^1.1.13, is-typed-array@^1.1.14, is-typed-array@^1.1.15:
     which-typed-array "^1.1.16"
 
 is-unsafe@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/is-unsafe/-/is-unsafe-2.0.0.tgz#c0dce4e06742662dde26360160e414ea487da2e9"
-  integrity sha512-2LdV822R+wmI86unXA93WCFpL6g+av8ynWk0nrHyJqGop5VoocYsSLFgN8jrfalT6iGeLNM4KXuVSsULP53kEA==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/is-unsafe/-/is-unsafe-2.0.2.tgz#bb1ead17f1aa688f6433258b561e98b1a45a1afc"
+  integrity sha512-HgbIHPBH0KHHCcjLfGsCvhtPTVxjaAZlXjwdz7/GQC40SjSe4sfQsar8J5VFo8JOSbarkpV0OLG95bbaNd9aAQ==
 
 is-weakmap@^2.0.2:
   version "2.0.2"
