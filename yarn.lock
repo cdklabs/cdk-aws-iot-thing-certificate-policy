@@ -33,9 +33,9 @@
     "@aws-cdk/aws-service-spec" "0.1.204"
 
 "@aws-cdk/integ-tests-alpha@latest":
-  version "2.267.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.267.0-alpha.0.tgz#9c0bde90bb53038e7def8b8953c5e0a32220aa07"
-  integrity sha512-5QxhG4MrU/Y1GuZRvS73PPbvdL+e9QltLGp912t2MK/uMlZEN8ExHKJN58div3s8UdgcJpdEeaHjBFUjjB03Ng==
+  version "2.268.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/integ-tests-alpha/-/integ-tests-alpha-2.268.0-alpha.0.tgz#ef53568fc5ab0fb6f8a29ff3d7911b76c664c2ad"
+  integrity sha512-+ztFgUZODWS6tBAar5H2e3nTMfFXTiTu3rdfKovSCsuPiWovABkOXyRbBodaJEkI+ybVYvotlnhvwQM8yybW4Q==
 
 "@aws-cdk/service-spec-types@^0.0.270":
   version "0.0.270"
@@ -2524,9 +2524,9 @@ fast-levenshtein@^2.0.6:
   integrity sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==
 
 fast-uri@^3.0.1:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.1.6.tgz#bfdd308ef763f835fed059f3c6c925f708e33e3a"
-  integrity sha512-7Ical1vFEMr0onbVzEDIreM22I4khW+fzyQPwvAFWBp1iwdshSZRsL4jjRvPG9JP1uiqMHRto+YU6R2/CzDz5Q==
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.1.7.tgz#743157d957f3cbb4c65310e033dc2ad4ad7dc60a"
+  integrity sha512-dOvZVzjdZdz7phd9v6jCbwxrBW3fK6n8Rc0CtdmM4bumzMnxywBYhuph6J819RRw/ku+rLbelwfMunktuzVVHg==
 
 fast-xml-builder@^1.2.0:
   version "1.3.1"
