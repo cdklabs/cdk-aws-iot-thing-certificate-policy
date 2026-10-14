@@ -329,6 +329,11 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
+"@dual-bundle/import-meta-resolve@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@dual-bundle/import-meta-resolve/-/import-meta-resolve-4.2.1.tgz#cd0b25b3808cd9e684cd6cd549bbf8e1dcf05ee7"
+  integrity sha512-id+7YRUgoUX6CgV0DtuhirQWodeeA7Lf4i2x71JS/vtA5pRb/hIGWlw+G6MeXvsM+MXrz0VAydTGElX1rAfgPg==
+
 "@emnapi/core@1.10.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@emnapi/core/-/core-1.10.0.tgz#380ccc8f2412ea22d1d972df7f8ee23a3b9c7467"
@@ -1567,9 +1572,9 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001813:
-  version "1.0.30001815"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001815.tgz#7cf8faa82c998b06873a113e9d3d9544f2022ac0"
-  integrity sha512-uDybUEyfgbyJJ93J1vikTylBX31AkdVYeVPeffMQpf8XN7hSfr0oZOn4VFOIMNvtU5+rHvC5Udg2TgtJKHm23Q==
+  version "1.0.30001816"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001816.tgz#80567cffb179fd8a1702816bc80de8efc9784021"
+  integrity sha512-+8Yx7BXCoqk6IF8yTicjfUR6D/ldJzdlsodlEOiOSPmhK844WIgk67/zIQaGAOxNkZyyvBlrRFnLvqKIoqbAFw==
 
 case@1.6.3, case@^1.6.3:
   version "1.6.3"
@@ -2119,9 +2124,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.439:
-  version "1.5.452"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.452.tgz#eb404201969cefcaaf8c5ee82b1a1bbb19cd7b8b"
-  integrity sha512-cVvk1YBSj6571VmV6hdJTqj94Y79xSu8cj6Y9t6ae4Y4431z8/7EJFvu3rVp90xhfuv9BpPKUmaLfTo4+FOGBg==
+  version "1.5.454"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.454.tgz#7f6f6cd1c855e1f7fb55fc17798e92e6ea08cb04"
+  integrity sha512-NqD5GhkXnxJpDQVCmmpc546qjH6kei2VI9m45CTF+sQU7bcS7YeVt7ba0cnjueMH1AXGRu/driZUP9iYVSv7vg==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -2340,13 +2345,13 @@ eslint-plugin-import@^2.32.0:
     string.prototype.trimend "^1.0.9"
     tsconfig-paths "^3.15.0"
 
-eslint-plugin-prettier@^5.5.6:
-  version "5.5.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.6.tgz#363ebe4d769bce157ccdd8129ce3efd91dc62564"
-  integrity sha512-ifetmTcxWfz+4qRW3pH/ujdTq2jQIj59AxJMIN26K5avYgU8dxycUETQonWiW+wPrYXA0j3Try0l1CnwVQtDqQ==
+eslint-plugin-prettier@^5.5.7:
+  version "5.5.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.7.tgz#ebef3acc2d664333b1356b717780198abc635398"
+  integrity sha512-WjHyn3GrFd+ZR0rzsLiM4zJZ35PZMOE0SUIxzGmnWNG0126yNfJKJzObmmkYDwHJfGlkz3PSlzyG9ez/LJntwg==
   dependencies:
     prettier-linter-helpers "^1.0.1"
-    synckit "^0.11.13"
+    synckit "^0.12.3"
 
 eslint-scope@^7.2.2:
   version "7.2.2"
@@ -5263,11 +5268,12 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-synckit@^0.11.13:
-  version "0.11.13"
-  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.11.13.tgz#062a5ea57d81befc35892f8254de5c567e97c80a"
-  integrity sha512-eNRKgb3z66Yp3D2CixVujOUvXLFUTij/zVnV8KRyvFdQwpz7I5DS8UfRkTeLzb64u+dkzDSdelE24izu+zSSUg==
+synckit@^0.12.3:
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.12.3.tgz#6e30a3441d095ed04c311077350ce205465512d6"
+  integrity sha512-U+/AXT6LWsxnj2vz9HeUuPWBNgdWxjyIEjEPdbJARC9txmgPzo2VEdqnFo4hHaNyMPtycyVJrSaQYeQv/PoyyA==
   dependencies:
+    "@dual-bundle/import-meta-resolve" "^4.2.1"
     "@pkgr/core" "^0.3.6"
 
 table@^6.8.2:
