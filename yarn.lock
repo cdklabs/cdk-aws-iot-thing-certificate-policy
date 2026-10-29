@@ -896,9 +896,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*":
-  version "26.6.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.6.5.tgz#cb35209e7767c503551b5fa42a48231c7441d979"
-  integrity sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==
+  version "26.6.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.6.6.tgz#9ed7b5817e728ed9216ef7c5b7d373fe3b777104"
+  integrity sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==
   dependencies:
     undici-types "~8.9.0"
 
@@ -5117,9 +5117,9 @@ stop-iteration-iterator@^1.1.0:
     internal-slot "^1.1.0"
 
 stream-chain@^4.2.5:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/stream-chain/-/stream-chain-4.3.0.tgz#7e6ea86656fb7a193bcfb1f7cd1be9392151cf7a"
-  integrity sha512-01QSuOXnqVS/eP67NMvXfpbwNSovfSpK1QWi6zg4EIArO7O8tQMhPT0cMRXl2wwK80gBjrPxgaLDSNzdQiKIuw==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/stream-chain/-/stream-chain-4.4.1.tgz#bd7f954214405a84a2bc1eeaf52335f7b0fad658"
+  integrity sha512-4MWXw+Si0RW3HAYQN3MdxpgTJA6Te9StiLtdkZO248DLPsRipqBbuiQSkyYLpCDEuvqGfqb2B5dEGxiEfHYkNQ==
 
 stream-json@^3.7.0:
   version "3.7.0"
