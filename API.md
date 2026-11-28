@@ -4,6 +4,8 @@
 
 ### IotThingCertificatePolicy <a name="IotThingCertificatePolicy" id="@cdklabs/cdk-aws-iot-thing-certificate-policy.IotThingCertificatePolicy"></a>
 
+- *Implements:* constructs.IConstruct, constructs.IDependable
+
 Creates and associates an AWS IoT thing, AWS IoT certificate, and AWS IoT policy.
 
 It attaches the certificate to the thing and policy, and then stores the certificate
